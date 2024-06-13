@@ -1,0 +1,173 @@
+2024.06.13 16:37:04 INFO  Started: Metals version 1.3.1 in folders '/home/gkosia/my-repos/dataeng-scala' for client Visual Studio Code 1.90.0.[0m
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@3fbc08fc]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@8de0987]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@3fbc08fc]
+2024.06.13 16:37:05 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.[0m
+2024.06.13 16:37:11 INFO  running '/usr/bin/sbt -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2024.06.13 16:37:11 INFO  copying runtime jar...[0m
+2024.06.13 16:37:16 INFO  [info] welcome to sbt 1.10.0 (Eclipse Adoptium Java 17)[0m
+2024.06.13 16:37:18 INFO  [info] loading settings for project learn-scala-build-build from metals.sbt ...[0m
+2024.06.13 16:37:18 INFO  [info] loading project definition from /home/gkosia/my-repos/dataeng-scala/learn-scala/project/project[0m
+2024.06.13 16:37:21 INFO  [info] loading settings for project learn-scala-build from metals.sbt ...[0m
+2024.06.13 16:37:21 INFO  [info] loading project definition from /home/gkosia/my-repos/dataeng-scala/learn-scala/project[0m
+2024.06.13 16:37:24 INFO  [success] Generated .bloop/learn-scala-build.json[0m
+2024.06.13 16:37:24 INFO  [success] Total time: 3 s, completed Jun 13, 2024, 4:37:24 PM[0m
+2024.06.13 16:37:25 INFO  [info] loading settings for project root from build.sbt ...[0m
+2024.06.13 16:37:25 INFO  [info] set current project to learn-scala (in build file:/home/gkosia/my-repos/dataeng-scala/learn-scala/)[0m
+2024.06.13 16:37:27 INFO  [success] Generated .bloop/root-test.json[0m
+2024.06.13 16:37:27 INFO  [success] Generated .bloop/root.json[0m
+2024.06.13 16:37:27 INFO  [success] Total time: 1 s, completed Jun 13, 2024, 4:37:27 PM[0m
+2024.06.13 16:37:27 INFO  time: ran 'sbt bloopInstall' in 15s[0m
+2024.06.13 16:37:27 INFO  Attempting to connect to the build server...[0m
+2024.06.13 16:37:27 INFO  Setting up current java home /home/gkosia/.cache/coursier/arc/https/github.com/adoptium/temurin17-binaries/releases/download/jdk-17%252B35/OpenJDK17-jdk_x64_linux_hotspot_17_35.tar.gz/jdk-17+35 in /home/gkosia/.bloop/bloop.json[0m
+2024.06.13 16:37:33 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gkosia/my-repos/dataeng-scala/.metals/bsp.trace.json or /home/gkosia/.cache/metals/bsp.trace.json[0m
+2024.06.13 16:37:33 INFO  time: Connected to build server in 6.5s[0m
+2024.06.13 16:37:33 INFO  Connected to Build server: Bloop v1.5.17[0m
+2024.06.13 16:37:46 INFO  time: indexed workspace in 12s[0m
+2024.06.13 16:39:52 INFO  compiling root (1 scala source)[0m
+2024.06.13 16:39:55 INFO  time: compiled root in 2.52s[0m
+2024.06.13 16:42:01 INFO  compiling root-test (1 scala source)[0m
+2024.06.13 16:42:01 INFO  Deduplicating compilation of root-test from bsp client 'Metals 1.3.1' (since 4m 28.062s)[0m
+2024.06.13 16:42:01 INFO  compiling root-test (1 scala source)[0m
+2024.06.13 16:42:01 INFO  time: compiled root-test in 0.77s[0m
+2024.06.13 16:42:02 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gkosia/my-repos/dataeng-scala/.metals/dap-server.trace.json or /home/gkosia/.cache/metals/dap-server.trace.json[0m
+2024.06.13 16:42:02 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gkosia/my-repos/dataeng-scala/.metals/dap-client.trace.json or /home/gkosia/.cache/metals/dap-client.trace.json[0m
+2024.06.13 16:42:02 INFO  Starting debug proxy for [hello][0m
+2024.06.13 16:42:04 INFO  Loaded expression compiler in 1 second[0m
+2024.06.13 16:42:04 INFO  /home/gkosia/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/scala-debug-decoder_3/4.0.4/scala-debug-decoder_3-4.0.4.jar[0m
+2024.06.13 16:42:04 INFO  /home/gkosia/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.4.0/scala3-library_3-3.4.0.jar[0m
+2024.06.13 16:42:04 INFO  /home/gkosia/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/tasty-query_3/1.3.0/tasty-query_3-1.3.0.jar[0m
+2024.06.13 16:42:04 INFO  /home/gkosia/.cache/coursier/v1/https/repo1.maven.org/maven2/org/ow2/asm/asm/9.6/asm-9.6.jar[0m
+2024.06.13 16:42:04 INFO  /home/gkosia/.cache/coursier/v1/https/repo1.maven.org/maven2/org/ow2/asm/asm-util/9.6/asm-util-9.6.jar[0m
+2024.06.13 16:42:04 INFO  /home/gkosia/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12.jar[0m
+2024.06.13 16:42:04 INFO  /home/gkosia/.cache/coursier/v1/https/repo1.maven.org/maven2/org/ow2/asm/asm-tree/9.6/asm-tree-9.6.jar[0m
+2024.06.13 16:42:04 INFO  /home/gkosia/.cache/coursier/v1/https/repo1.maven.org/maven2/org/ow2/asm/asm-analysis/9.6/asm-analysis-9.6.jar[0m
+2024.06.13 16:42:04 INFO  Loaded step filter in 677 milliseconds[0m
+2024.06.13 16:42:06 INFO  Loaded all sources and classes in 1 second[0m
+2024.06.13 16:42:06 INFO  Trying to attach to remote debuggee VM localhost:34687 .[0m
+2024.06.13 16:42:06 INFO  Attaching to debuggee VM succeeded.[0m
+2024.06.13 16:42:08 INFO  Canceling debug proxy for [hello][0m
+2024.06.13 16:42:08 INFO  Closing debug server tcp://0.0.0.0:34709[0m
+2024.06.13 16:42:33 INFO  Deduplicating compilation of root from bsp client 'Metals 1.3.1' (since 4m 59.85s)[0m
+2024.06.13 16:42:33 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gkosia/my-repos/dataeng-scala/.metals/dap-server.trace.json or /home/gkosia/.cache/metals/dap-server.trace.json[0m
+2024.06.13 16:42:33 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gkosia/my-repos/dataeng-scala/.metals/dap-client.trace.json or /home/gkosia/.cache/metals/dap-client.trace.json[0m
+2024.06.13 16:42:33 INFO  Starting debug proxy for [hello][0m
+2024.06.13 16:42:33 INFO  Loaded expression compiler in 1 millisecond[0m
+2024.06.13 16:42:33 INFO  Loaded step filter in 0 milliseconds[0m
+2024.06.13 16:42:33 INFO  Loaded all sources and classes in 499 milliseconds[0m
+2024.06.13 16:42:34 INFO  Trying to attach to remote debuggee VM localhost:33059 .[0m
+2024.06.13 16:42:34 INFO  Attaching to debuggee VM succeeded.[0m
+2024.06.13 16:42:34 INFO  Canceling debug proxy for [hello][0m
+2024.06.13 16:42:34 INFO  Closing debug server tcp://0.0.0.0:43287[0m
+2024.06.13 16:42:47 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gkosia/my-repos/dataeng-scala/.metals/dap-server.trace.json or /home/gkosia/.cache/metals/dap-server.trace.json[0m
+2024.06.13 16:42:47 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gkosia/my-repos/dataeng-scala/.metals/dap-client.trace.json or /home/gkosia/.cache/metals/dap-client.trace.json[0m
+2024.06.13 16:42:47 INFO  Starting debug proxy for [MySuite(example test that succeeds)][0m
+2024.06.13 16:42:47 INFO  Trying to attach to remote debuggee VM localhost:49675 .[0m
+2024.06.13 16:42:47 INFO  Attaching to debuggee VM succeeded.[0m
+2024.06.13 16:42:47 INFO  Canceling debug proxy for [MySuite(example test that succeeds)][0m
+2024.06.13 16:42:47 INFO  Closing debug server tcp://0.0.0.0:39015[0m
+2024.06.13 16:44:36 INFO  compiling root-test (1 scala source)[0m
+2024.06.13 16:44:36 INFO  time: compiled root-test in 0.52s[0m
+2024.06.13 16:44:43 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gkosia/my-repos/dataeng-scala/.metals/dap-server.trace.json or /home/gkosia/.cache/metals/dap-server.trace.json[0m
+2024.06.13 16:44:44 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gkosia/my-repos/dataeng-scala/.metals/dap-client.trace.json or /home/gkosia/.cache/metals/dap-client.trace.json[0m
+2024.06.13 16:44:44 INFO  Starting debug proxy for [MySuite(example test that succeeds)][0m
+2024.06.13 16:44:44 INFO  Trying to attach to remote debuggee VM localhost:42997 .[0m
+2024.06.13 16:44:44 INFO  Attaching to debuggee VM succeeded.[0m
+2024.06.13 16:44:44 INFO  Canceling debug proxy for [MySuite(example test that succeeds)][0m
+2024.06.13 16:44:44 INFO  Closing debug server tcp://0.0.0.0:39055[0m
+2024.06.13 16:45:29 INFO  compiling root-test (1 scala source)[0m
+2024.06.13 16:45:29 INFO  time: compiled root-test in 0.36s[0m
+2024.06.13 16:45:58 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gkosia/my-repos/dataeng-scala/.metals/dap-server.trace.json or /home/gkosia/.cache/metals/dap-server.trace.json[0m
+2024.06.13 16:45:58 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gkosia/my-repos/dataeng-scala/.metals/dap-client.trace.json or /home/gkosia/.cache/metals/dap-client.trace.json[0m
+2024.06.13 16:45:58 INFO  Starting debug proxy for [MySuite(example test that succeeds)][0m
+2024.06.13 16:45:59 INFO  Trying to attach to remote debuggee VM localhost:53745 .[0m
+2024.06.13 16:45:59 INFO  Attaching to debuggee VM succeeded.[0m
+2024.06.13 16:45:59 INFO  Canceling debug proxy for [MySuite(example test that succeeds)][0m
+2024.06.13 16:45:59 INFO  Closing debug server tcp://0.0.0.0:39315[0m
+Jun 13, 2024 4:46:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 399
+2024.06.13 16:46:53 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gkosia/my-repos/dataeng-scala/.metals/dap-server.trace.json or /home/gkosia/.cache/metals/dap-server.trace.json[0m
+2024.06.13 16:46:53 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gkosia/my-repos/dataeng-scala/.metals/dap-client.trace.json or /home/gkosia/.cache/metals/dap-client.trace.json[0m
+2024.06.13 16:46:54 INFO  Starting debug proxy for [MySuite(test that fails)][0m
+2024.06.13 16:46:54 INFO  Trying to attach to remote debuggee VM localhost:34767 .[0m
+2024.06.13 16:46:54 INFO  Attaching to debuggee VM succeeded.[0m
+2024.06.13 16:46:54 INFO  Canceling debug proxy for [MySuite(test that fails)][0m
+2024.06.13 16:46:54 INFO  Closing debug server tcp://0.0.0.0:33285[0m
+2024.06.13 17:01:44 INFO  no build target found for /home/gkosia/my-repos/dataeng-scala/learn-scala/worksheets/demo.worksheet.sc. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.13 17:01:44 INFO  no build target found for /home/gkosia/my-repos/dataeng-scala/learn-scala/worksheets/demo.worksheet.sc. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.13 17:01:44 WARN  no build target for: /home/gkosia/my-repos/dataeng-scala/learn-scala/worksheets/demo.worksheet.sc[0m
+2024.06.13 17:01:47 INFO  time: code lens generation in 2.99s[0m
+2024.06.13 17:01:53 INFO  time: evaluated worksheet 'demo.worksheet.sc' in 9.2s[0m
+2024.06.13 17:02:16 WARN  no build target for: /home/gkosia/my-repos/dataeng-scala/learn-scala/worksheets/demo.worksheet.sc[0m
+2024.06.13 17:02:17 INFO  time: evaluated worksheet 'demo.worksheet.sc' in 0.87s[0m
+Jun 13, 2024 5:02:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: org.scalameta.invariants.InvariantFailedException: invariant failed:
+when verifying parentCheckOk.&&(org.scalameta.`package`.debug(this, parentPrefix, destination))
+found that parentCheckOk is false
+where TermRepeatedImpl = _ *
+where destination = fun
+where parentCheckOk = false
+where parentPrefix = Term.Apply
+where this = _ *
+
+java.util.concurrent.CompletionException: org.scalameta.invariants.InvariantFailedException: invariant failed:
+when verifying parentCheckOk.&&(org.scalameta.`package`.debug(this, parentPrefix, destination))
+found that parentCheckOk is false
+where TermRepeatedImpl = _ *
+where destination = fun
+where parentCheckOk = false
+where parentPrefix = Term.Apply
+where this = _ *
+
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.scalameta.invariants.InvariantFailedException: invariant failed:
+when verifying parentCheckOk.&&(org.scalameta.`package`.debug(this, parentPrefix, destination))
+found that parentCheckOk is false
+where TermRepeatedImpl = _ *
+where destination = fun
+where parentCheckOk = false
+where parentPrefix = Term.Apply
+where this = _ *
+
+	at org.scalameta.invariants.InvariantFailedException$.raise(InvariantFailedException.scala:27)
+	at scala.meta.Term$Repeated$TermRepeatedImpl.checkParent$7(Trees.scala:258)
+	at scala.meta.Term$Repeated$TermRepeatedImpl.privateCopy(Trees.scala:259)
+	at scala.meta.Term$Apply$.apply(Trees.scala:148)
+	at scala.meta.Term$Apply$.apply(Trees.scala:148)
+	at scala.meta.Term$Apply$.apply(Trees.scala:148)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.processPatAndNextQual(FlatMapToForComprehensionCodeAction.scala:313)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$extractChainedForYield$1(FlatMapToForComprehensionCodeAction.scala:603)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.extractChainedForYield(FlatMapToForComprehensionCodeAction.scala:601)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$codeActionWithApply$1(FlatMapToForComprehensionCodeAction.scala:187)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.codeActionWithApply(FlatMapToForComprehensionCodeAction.scala:179)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$5(FlatMapToForComprehensionCodeAction.scala:61)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$3(FlatMapToForComprehensionCodeAction.scala:53)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$2(FlatMapToForComprehensionCodeAction.scala:52)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$1(FlatMapToForComprehensionCodeAction.scala:51)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2024.06.13 17:02:34 WARN  no build target for: /home/gkosia/my-repos/dataeng-scala/learn-scala/worksheets/demo.worksheet.sc[0m
+2024.06.13 17:02:35 INFO  time: evaluated worksheet 'demo.worksheet.sc' in 0.51s[0m
+2024.06.13 17:02:37 WARN  no build target for: /home/gkosia/my-repos/dataeng-scala/learn-scala/worksheets/demo.worksheet.sc[0m
+2024.06.13 17:02:38 INFO  time: evaluated worksheet 'demo.worksheet.sc' in 0.36s[0m
+2024.06.13 17:07:57 WARN  no build target for: /home/gkosia/my-repos/dataeng-scala/learn-scala/worksheets/demo.worksheet.sc[0m
+2024.06.13 17:07:58 INFO  time: evaluated worksheet 'demo.worksheet.sc' in 0.49s[0m

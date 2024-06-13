@@ -1,0 +1,21 @@
+https://www.youtube.com/watch?v=tNLS6rOGBlo
+
+1. install java
+2. install sbt
+3. sbt new scala/scala3.g8:  to generate a project structure from template
+4. cd to project folder
+5. sbt test: to compile and run the project
+6. Install vs extension Scala(Metals), scala syntax, scala snippets
+7. Import build of metals (import build popup window or go to Metals -> import build)
+8. In Output window can see output from Metals server
+
+If Metals and Vs code configured correct when hover over methods in code should popup the method definition
+
+
+
+-------
+
+worksheets: create a folder with the name worksheets
+            create a file filename.worksheet.sc
+
+            worksheets compile and run the code interactivly and adds in comment the current state
