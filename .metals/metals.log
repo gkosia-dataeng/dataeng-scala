@@ -171,3 +171,2263 @@ where this = _ *
 2024.06.13 17:02:38 INFO  time: evaluated worksheet 'demo.worksheet.sc' in 0.36s[0m
 2024.06.13 17:07:57 WARN  no build target for: /home/gkosia/my-repos/dataeng-scala/learn-scala/worksheets/demo.worksheet.sc[0m
 2024.06.13 17:07:58 INFO  time: evaluated worksheet 'demo.worksheet.sc' in 0.49s[0m
+2024.06.13 17:14:26 INFO  Shutting down server[0m
+2024.06.13 17:14:26 INFO  shutting down Metals[0m
+2024.06.13 17:14:26 INFO  Shut down connection with build server.[0m
+2024.06.13 17:14:26 INFO  Exiting server[0m
+2024.06.14 11:06:05 INFO  Started: Metals version 1.3.1 in folders '/home/gkosia/my-repos/dataeng-scala' for client Visual Studio Code 1.90.0.[0m
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@4d1fb0e7]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@21a93001]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@4d1fb0e7]
+2024.06.14 11:06:05 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.[0m
+2024.06.14 11:06:06 INFO  Attempting to connect to the build server...[0m
+2024.06.14 11:06:06 INFO  no build target found for /home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.14 11:06:09 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gkosia/my-repos/dataeng-scala/.metals/bsp.trace.json or /home/gkosia/.cache/metals/bsp.trace.json[0m
+2024.06.14 11:06:09 INFO  time: Connected to build server in 4.53s[0m
+2024.06.14 11:06:09 INFO  Connected to Build server: Bloop v1.5.17[0m
+2024.06.14 11:06:12 INFO  time: indexed workspace in 1.75s[0m
+2024.06.14 11:06:13 INFO  compiling root (1 scala source)[0m
+2024.06.14 11:06:16 INFO  compiling root-test (1 scala source)[0m
+2024.06.14 11:06:16 INFO  time: compiled root in 3.56s[0m
+2024.06.14 11:06:17 INFO  time: compiled root-test in 1.27s[0m
+2024.06.14 11:09:47 WARN  Could not find semantic tokens for: file:///home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/Main.scala[0m
+2024.06.14 11:09:49 WARN  Could not find semantic tokens for: file:///home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/Main.scala[0m
+2024.06.14 11:09:50 WARN  Could not find semantic tokens for: file:///home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/Main.scala[0m
+2024.06.14 11:10:06 INFO  compiling root (1 scala source)[0m
+2024.06.14 11:10:06 INFO  time: compiled root in 0.39s[0m
+2024.06.14 11:10:12 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.[0m
+2024.06.14 11:10:12 INFO  no build target found for /scala/App.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.14 11:11:19 INFO  compiling root (1 scala source)[0m
+2024.06.14 11:11:19 WARN  Could not load snapshot text for /home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/Main.scala[0m
+2024.06.14 11:11:19 INFO  time: compiled root in 0.46s[0m
+2024.06.14 11:12:47 INFO  compiling root (1 scala source)[0m
+2024.06.14 11:12:47 INFO  time: compiled root in 0.31s[0m
+2024.06.14 11:12:57 INFO  compiling root (1 scala source)[0m
+2024.06.14 11:12:57 INFO  time: compiled root in 0.4s[0m
+2024.06.14 11:13:15 INFO  compiling root (1 scala source)[0m
+2024.06.14 11:13:15 INFO  time: compiled root in 0.36s[0m
+Jun 14, 2024 11:13:29 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 532
+2024.06.14 11:13:31 INFO  compiling root (1 scala source)[0m
+2024.06.14 11:13:31 INFO  time: compiled root in 0.21s[0m
+Jun 14, 2024 11:13:38 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 571
+2024.06.14 11:13:46 ERROR Failed to tokenize input for semantic tokens for /home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:9: error: unclosed multi-line string literal
+  val aString = """learing scala"
+                ^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getRawStringLit(LegacyScanner.scala:574)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:373)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:383)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:514)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+2024.06.14 11:13:54 INFO  compiling root (1 scala source)[0m
+2024.06.14 11:13:54 INFO  time: compiled root in 0.17s[0m
+2024.06.14 11:14:48 ERROR Failed to tokenize input for semantic tokens for /home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:12: error: unclosed string interpolation
+  val message = s"meaningOfLife val is $"
+                  ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:666)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:364)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:383)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:514)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+2024.06.14 11:14:50 INFO  compiling root (1 scala source)[0m
+2024.06.14 11:14:50 INFO  time: compiled root in 0.21s[0m
+2024.06.14 11:15:50 INFO  compiling root (1 scala source)[0m
+2024.06.14 11:15:50 INFO  time: compiled root in 0.15s[0m
+Jun 14, 2024 11:16:05 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 860
+Jun 14, 2024 11:16:05 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 865
+Jun 14, 2024 11:16:21 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 958
+2024.06.14 11:16:32 INFO  compiling root (1 scala source)[0m
+2024.06.14 11:16:32 INFO  time: compiled root in 0.13s[0m
+2024.06.14 11:17:33 INFO  compiling root (1 scala source)[0m
+2024.06.14 11:17:33 INFO  time: compiled root in 0.16s[0m
+2024.06.14 11:18:39 INFO  compiling root (1 scala source)[0m
+2024.06.14 11:18:39 INFO  time: compiled root in 0.18s[0m
+2024.06.14 11:19:46 INFO  compiling root (1 scala source)[0m
+2024.06.14 11:19:46 INFO  time: compiled root in 0.15s[0m
+Jun 14, 2024 11:20:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1529
+Jun 14, 2024 11:20:46 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1730
+2024.06.14 11:21:01 INFO  compiling root (1 scala source)[0m
+2024.06.14 11:21:01 INFO  time: compiled root in 0.2s[0m
+2024.06.14 11:21:22 INFO  compiling root (1 scala source)[0m
+2024.06.14 11:21:22 INFO  time: compiled root in 0.1s[0m
+2024.06.14 11:21:22 INFO  compiling root (1 scala source)[0m
+2024.06.14 11:21:22 INFO  time: compiled root in 67ms[0m
+2024.06.14 11:21:22 INFO  compiling root (1 scala source)[0m
+2024.06.14 11:21:22 INFO  time: compiled root in 64ms[0m
+2024.06.14 11:22:38 INFO  compiling root (1 scala source)[0m
+2024.06.14 11:22:38 INFO  time: compiled root in 0.15s[0m
+2024.06.14 11:23:05 INFO  compiling root (1 scala source)[0m
+2024.06.14 11:23:05 INFO  time: compiled root in 0.16s[0m
+Jun 14, 2024 11:23:29 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2161
+2024.06.14 11:24:16 ERROR Failed to tokenize input for semantic tokens for /home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:36: error: unclosed string interpolation
+  def myFunc(name: String, age: Int): String = s"Name $"
+                                                 ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:666)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:364)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:383)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:514)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+2024.06.14 11:24:24 ERROR Failed to tokenize input for semantic tokens for /home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:36: error: unclosed string interpolation
+  def myFunc(name: String, age: Int): String = s"Name $name age $"
+                                                           ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:666)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:252)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:514)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+2024.06.14 11:24:27 INFO  compiling root (1 scala source)[0m
+2024.06.14 11:24:27 INFO  time: compiled root in 0.17s[0m
+2024.06.14 11:25:07 ERROR scalafmt: /home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/Main.scala:39: error: [dialect scala3] illegal start of declaration (possible cause: missing `=' in front of current method body)
+    s"Name $name age $age"
+    ^[0m
+2024.06.14 11:25:07 INFO  compiling root (1 scala source)[0m
+2024.06.14 11:25:07 INFO  time: compiled root in 67ms[0m
+2024.06.14 11:25:07 ERROR scalafmt: /home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/Main.scala:39: error: [dialect scala3] illegal start of declaration (possible cause: missing `=' in front of current method body)
+    s"Name $name age $age"
+    ^[0m
+2024.06.14 11:25:07 INFO  compiling root (1 scala source)[0m
+2024.06.14 11:25:07 ERROR scalafmt: /home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/Main.scala:39: error: [dialect scala3] illegal start of declaration (possible cause: missing `=' in front of current method body)
+    s"Name $name age $age"
+    ^[0m
+2024.06.14 11:25:07 INFO  time: compiled root in 0.11s[0m
+2024.06.14 11:25:07 INFO  compiling root (1 scala source)[0m
+2024.06.14 11:25:07 INFO  time: compiled root in 58ms[0m
+2024.06.14 11:25:28 INFO  compiling root (1 scala source)[0m
+2024.06.14 11:25:28 INFO  time: compiled root in 0.15s[0m
+Jun 14, 2024 11:26:15 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2880
+2024.06.14 11:26:46 INFO  compiling root (1 scala source)[0m
+2024.06.14 11:26:46 INFO  time: compiled root in 0.12s[0m
+2024.06.14 11:33:11 INFO  compiling root (1 scala source)[0m
+2024.06.14 11:33:11 INFO  time: compiled root in 0.15s[0m
+2024.06.14 11:33:12 INFO  compiling root (1 scala source)[0m
+2024.06.14 11:33:12 INFO  time: compiled root in 0.17s[0m
+2024.06.14 11:35:06 ERROR Failed to tokenize input for semantic tokens for /home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:50: error: unclosed multi-line string literal
+    println("""")
+            ^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getRawStringLit(LegacyScanner.scala:574)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:373)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:383)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:514)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+2024.06.14 11:35:08 ERROR Failed to tokenize input for semantic tokens for /home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:50: error: unclosed multi-line string literal
+    println("""")
+            ^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getRawStringLit(LegacyScanner.scala:574)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:373)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:383)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:514)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+2024.06.14 11:35:08 ERROR Failed to tokenize input for semantic tokens for /home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:50: error: unclosed multi-line string literal
+    println(""")
+            ^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getRawStringLit(LegacyScanner.scala:574)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:373)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:383)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:514)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+2024.06.14 11:35:26 INFO  compiling root (1 scala source)[0m
+2024.06.14 11:35:26 INFO  time: compiled root in 0.19s[0m
+Jun 14, 2024 11:35:46 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3436
+2024.06.14 11:36:30 INFO  compiling root (1 scala source)[0m
+2024.06.14 11:36:30 INFO  time: compiled root in 0.14s[0m
+2024.06.14 11:36:45 INFO  compiling root (1 scala source)[0m
+2024.06.14 11:36:45 INFO  time: compiled root in 0.23s[0m
+Jun 14, 2024 11:36:47 AM scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+WARNING: Error indexing /home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/Main.scala
+java.nio.file.NoSuchFileException: /home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/Main.scala
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:219)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3288)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:410)
+	at scala.meta.internal.mtags.Mtags.index(Mtags.scala:96)
+	at scala.meta.internal.mtags.Mtags.allSymbols(Mtags.scala:21)
+	at scala.meta.internal.mtags.SymbolIndexBucket.allSymbols(SymbolIndexBucket.scala:279)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:290)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:205)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:205)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:210)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:205)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:178)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:159)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:159)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:129)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:49)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:51)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:44)
+	at dotty.tools.pc.utils.MtagsEnrichments$.symbolDocumentation(MtagsEnrichments.scala:283)
+	at dotty.tools.pc.HoverProvider$.$anonfun$3(HoverProvider.scala:129)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at dotty.tools.pc.HoverProvider$.hover(HoverProvider.scala:129)
+	at dotty.tools.pc.ScalaPresentationCompiler.hover$$anonfun$1(ScalaPresentationCompiler.scala:363)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:157)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:143)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:246)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+Jun 14, 2024 11:36:47 AM scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+WARNING: Error indexing /home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/Main.scala
+java.nio.file.NoSuchFileException: /home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/Main.scala
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:219)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3288)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:410)
+	at scala.meta.internal.mtags.Mtags.index(Mtags.scala:96)
+	at scala.meta.internal.mtags.Mtags.allSymbols(Mtags.scala:21)
+	at scala.meta.internal.mtags.SymbolIndexBucket.allSymbols(SymbolIndexBucket.scala:279)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:290)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:301)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:205)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:205)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:210)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:205)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:178)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:159)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:159)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:129)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:49)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:51)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:44)
+	at dotty.tools.pc.utils.MtagsEnrichments$.symbolDocumentation(MtagsEnrichments.scala:283)
+	at dotty.tools.pc.HoverProvider$.$anonfun$3(HoverProvider.scala:129)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at dotty.tools.pc.HoverProvider$.hover(HoverProvider.scala:129)
+	at dotty.tools.pc.ScalaPresentationCompiler.hover$$anonfun$1(ScalaPresentationCompiler.scala:363)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:157)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:143)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:246)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+2024.06.14 11:36:49 ERROR Failed to tokenize input for semantic tokens for /home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/01_FundamentalsOfScala.scala
+scala.meta.tokenizers.TokenizeException: <input>:1: error: Invalid literal number, followed by identifier character
+object 01FundamentalsOfScala extends App {
+          ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.checkNoLetter(LegacyScanner.scala:834)
+	at scala.meta.internal.tokenizers.LegacyScanner.setFractionDone(LegacyScanner.scala:828)
+	at scala.meta.internal.tokenizers.LegacyScanner.getNumber(LegacyScanner.scala:864)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchZero$1(LegacyScanner.scala:336)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:339)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:514)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+2024.06.14 11:36:49 ERROR Failed to tokenize input for semantic tokens for /home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/01_FundamentalsOfScala.scala
+scala.meta.tokenizers.TokenizeException: <input>:1: error: trailing number separator
+object 01_FundamentalsOfScala extends App {
+         ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.readDigits(LegacyScanner.scala:775)
+	at scala.meta.internal.tokenizers.LegacyScanner.getNumber(LegacyScanner.scala:841)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchZero$1(LegacyScanner.scala:336)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:339)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:514)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+2024.06.14 11:36:51 ERROR scalafmt: /home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/01_FundamentalsOfScala.scala:1: error: trailing separator is not allowed
+object 01_FundamentalsOfScala extends App {
+         ^[0m
+2024.06.14 11:36:51 INFO  compiling root (1 scala source)[0m
+2024.06.14 11:36:51 INFO  time: compiled root in 36ms[0m
+2024.06.14 11:36:51 ERROR Failed to tokenize input for semantic tokens for /home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/01_FundamentalsOfScala.scala
+scala.meta.tokenizers.TokenizeException: <input>:1: error: trailing number separator
+object 01_FundamentalsOfScala extends App {
+         ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.readDigits(LegacyScanner.scala:775)
+	at scala.meta.internal.tokenizers.LegacyScanner.getNumber(LegacyScanner.scala:841)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchZero$1(LegacyScanner.scala:336)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:339)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:514)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+2024.06.14 11:36:51 ERROR scalafmt: /home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/01_FundamentalsOfScala.scala:1: error: trailing separator is not allowed
+object 01_FundamentalsOfScala extends App {
+         ^[0m
+2024.06.14 11:36:51 INFO  compiling root (1 scala source)[0m
+2024.06.14 11:36:51 INFO  time: compiled root in 28ms[0m
+2024.06.14 11:36:51 ERROR Failed to tokenize input for semantic tokens for /home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/01_FundamentalsOfScala.scala
+scala.meta.tokenizers.TokenizeException: <input>:1: error: trailing number separator
+object 01_FundamentalsOfScala extends App {
+         ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.readDigits(LegacyScanner.scala:775)
+	at scala.meta.internal.tokenizers.LegacyScanner.getNumber(LegacyScanner.scala:841)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchZero$1(LegacyScanner.scala:336)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:339)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:514)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+2024.06.14 11:36:51 ERROR scalafmt: /home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/01_FundamentalsOfScala.scala:1: error: trailing separator is not allowed
+object 01_FundamentalsOfScala extends App {
+         ^[0m
+2024.06.14 11:36:51 INFO  compiling root (1 scala source)[0m
+2024.06.14 11:36:51 INFO  time: compiled root in 32ms[0m
+2024.06.14 11:36:52 ERROR Failed to tokenize input for semantic tokens for /home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/01_FundamentalsOfScala.scala
+scala.meta.tokenizers.TokenizeException: <input>:1: error: trailing number separator
+object 01_FundamentalsOfScala extends App {
+         ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.readDigits(LegacyScanner.scala:775)
+	at scala.meta.internal.tokenizers.LegacyScanner.getNumber(LegacyScanner.scala:841)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchZero$1(LegacyScanner.scala:336)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:339)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:514)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+2024.06.14 11:36:54 ERROR Failed to tokenize input for semantic tokens for /home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/01_FundamentalsOfScala.scala
+scala.meta.tokenizers.TokenizeException: <input>:1: error: Invalid literal number, followed by identifier character
+object 0FundamentalsOfScala extends App {
+         ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.checkNoLetter(LegacyScanner.scala:834)
+	at scala.meta.internal.tokenizers.LegacyScanner.setFractionDone(LegacyScanner.scala:828)
+	at scala.meta.internal.tokenizers.LegacyScanner.getNumber(LegacyScanner.scala:864)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchZero$1(LegacyScanner.scala:336)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:339)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:514)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+2024.06.14 11:37:22 INFO  compiling root (1 scala source)[0m
+2024.06.14 11:37:22 INFO  time: compiled root in 0.13s[0m
+2024.06.14 11:37:29 ERROR Failed to tokenize input for semantic tokens for /home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/01_FundamentalsOfScala.scala
+scala.meta.tokenizers.TokenizeException: <input>:1: error: Invalid literal number, followed by identifier character
+object 01FundamentalsOfScala extends App {
+          ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.checkNoLetter(LegacyScanner.scala:834)
+	at scala.meta.internal.tokenizers.LegacyScanner.setFractionDone(LegacyScanner.scala:828)
+	at scala.meta.internal.tokenizers.LegacyScanner.getNumber(LegacyScanner.scala:864)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchZero$1(LegacyScanner.scala:336)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:339)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:514)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+2024.06.14 11:37:31 ERROR Failed to tokenize input for semantic tokens for /home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/01_FundamentalsOfScala.scala
+scala.meta.tokenizers.TokenizeException: <input>:1: error: trailing number separator
+object 01_FundamentalsOfScala extends App {
+         ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.readDigits(LegacyScanner.scala:775)
+	at scala.meta.internal.tokenizers.LegacyScanner.getNumber(LegacyScanner.scala:841)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchZero$1(LegacyScanner.scala:336)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:339)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:514)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+2024.06.14 11:37:36 ERROR Failed to tokenize input for semantic tokens for /home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/01_FundamentalsOfScala.scala
+scala.meta.tokenizers.TokenizeException: <input>:1: error: empty quoted identifier
+object `` extends App {
+       ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getBackquotedIdent(LegacyScanner.scala:492)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:344)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:514)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+2024.06.14 11:37:38 INFO  compiling root (1 scala source)[0m
+2024.06.14 11:37:38 INFO  time: compiled root in 0.17s[0m
+2024.06.14 11:37:50 INFO  compiling root (1 scala source)[0m
+2024.06.14 11:37:50 INFO  time: compiled root in 90ms[0m
+Jun 14, 2024 11:38:02 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3785
+Jun 14, 2024 11:38:21 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3897
+2024.06.14 11:39:38 INFO  compiling root (1 scala source)[0m
+2024.06.14 11:39:38 INFO  time: compiled root in 0.12s[0m
+Jun 14, 2024 11:39:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4325
+Jun 14, 2024 11:40:04 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4418
+2024.06.14 11:40:11 INFO  compiling root (1 scala source)[0m
+2024.06.14 11:40:11 INFO  time: compiled root in 0.14s[0m
+Jun 14, 2024 11:40:27 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4497
+2024.06.14 11:41:03 INFO  compiling root (1 scala source)[0m
+2024.06.14 11:41:03 INFO  time: compiled root in 0.1s[0m
+2024.06.14 11:42:00 INFO  compiling root (1 scala source)[0m
+2024.06.14 11:42:00 INFO  time: compiled root in 0.18s[0m
+2024.06.14 11:44:25 INFO  compiling root (1 scala source)[0m
+2024.06.14 11:44:25 INFO  time: compiled root in 0.12s[0m
+2024.06.14 11:44:56 INFO  compiling root (1 scala source)[0m
+2024.06.14 11:44:56 INFO  time: compiled root in 0.11s[0m
+Jun 14, 2024 11:45:14 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4872
+2024.06.14 11:45:42 INFO  compiling root (1 scala source)[0m
+2024.06.14 11:45:42 INFO  time: compiled root in 0.17s[0m
+Jun 14, 2024 11:45:50 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5057
+2024.06.14 11:45:52 WARN  Using indexes to guess the definition of aDeclaredAnimal[0m
+2024.06.14 11:45:59 INFO  compiling root (1 scala source)[0m
+2024.06.14 11:45:59 INFO  time: compiled root in 58ms[0m
+2024.06.14 11:45:59 INFO  compiling root (1 scala source)[0m
+2024.06.14 11:45:59 INFO  time: compiled root in 38ms[0m
+2024.06.14 11:46:14 INFO  compiling root (1 scala source)[0m
+2024.06.14 11:46:14 INFO  time: compiled root in 0.17s[0m
+2024.06.14 11:49:54 INFO  compiling root (1 scala source)[0m
+2024.06.14 11:49:54 INFO  time: compiled root in 0.21s[0m
+2024.06.14 11:54:39 INFO  compiling root (1 scala source)[0m
+2024.06.14 11:54:39 INFO  time: compiled root in 0.11s[0m
+2024.06.14 11:56:49 INFO  compiling root (1 scala source)[0m
+2024.06.14 11:56:49 INFO  time: compiled root in 60ms[0m
+2024.06.14 11:56:49 INFO  compiling root (1 scala source)[0m
+2024.06.14 11:56:49 INFO  time: compiled root in 48ms[0m
+2024.06.14 11:56:49 INFO  compiling root (1 scala source)[0m
+2024.06.14 11:56:49 INFO  time: compiled root in 46ms[0m
+2024.06.14 11:56:49 INFO  compiling root (1 scala source)[0m
+2024.06.14 11:56:49 INFO  time: compiled root in 36ms[0m
+Jun 14, 2024 11:57:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6197
+Jun 14, 2024 11:57:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6198
+Jun 14, 2024 11:57:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6199
+2024.06.14 11:57:09 INFO  compiling root (1 scala source)[0m
+2024.06.14 11:57:09 INFO  time: compiled root in 32ms[0m
+2024.06.14 11:57:09 INFO  compiling root (1 scala source)[0m
+2024.06.14 11:57:09 INFO  time: compiled root in 30ms[0m
+2024.06.14 11:57:09 INFO  compiling root (1 scala source)[0m
+2024.06.14 11:57:09 INFO  time: compiled root in 33ms[0m
+2024.06.14 11:57:09 INFO  compiling root (1 scala source)[0m
+2024.06.14 11:57:09 INFO  time: compiled root in 37ms[0m
+2024.06.14 11:57:09 INFO  compiling root (1 scala source)[0m
+2024.06.14 11:57:10 INFO  time: compiled root in 39ms[0m
+2024.06.14 11:57:10 INFO  compiling root (1 scala source)[0m
+2024.06.14 11:57:10 INFO  time: compiled root in 36ms[0m
+2024.06.14 11:57:31 ERROR Failed to tokenize input for semantic tokens for /home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/02_OOP_Scala.scala
+scala.meta.tokenizers.TokenizeException: <input>:43: error: unclosed character literal
+    override def run(animal: Animal): Unit'   
+                                          ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchSingleQuote$1(LegacyScanner.scala:414)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:419)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:514)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+Jun 14, 2024 11:57:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6329
+2024.06.14 11:58:14 INFO  compiling root (1 scala source)[0m
+2024.06.14 11:58:14 INFO  time: compiled root in 40ms[0m
+2024.06.14 11:58:14 INFO  compiling root (1 scala source)[0m
+2024.06.14 11:58:14 INFO  time: compiled root in 30ms[0m
+2024.06.14 11:58:14 INFO  compiling root (1 scala source)[0m
+2024.06.14 11:58:14 INFO  time: compiled root in 32ms[0m
+2024.06.14 11:58:33 WARN  Using indexes to guess the definition of Unit[0m
+Jun 14, 2024 11:58:36 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: org.scalameta.invariants.InvariantFailedException: invariant failed:
+when verifying scala.meta.internal.trees.`package`.XtensionTreesType(tpe).isConstructable
+found that scala.meta.internal.trees.`package`.XtensionTreesType(tpe).isConstructable is false
+where tpe = (MyInterface, MyOtherInterface)
+
+java.util.concurrent.CompletionException: org.scalameta.invariants.InvariantFailedException: invariant failed:
+when verifying scala.meta.internal.trees.`package`.XtensionTreesType(tpe).isConstructable
+found that scala.meta.internal.trees.`package`.XtensionTreesType(tpe).isConstructable is false
+where tpe = (MyInterface, MyOtherInterface)
+
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.scalameta.invariants.InvariantFailedException: invariant failed:
+when verifying scala.meta.internal.trees.`package`.XtensionTreesType(tpe).isConstructable
+found that scala.meta.internal.trees.`package`.XtensionTreesType(tpe).isConstructable is false
+where tpe = (MyInterface, MyOtherInterface)
+
+	at org.scalameta.invariants.InvariantFailedException$.raise(InvariantFailedException.scala:27)
+	at scala.meta.Init$.apply(Trees.scala:881)
+	at scala.meta.Init$.apply(Trees.scala:880)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$initRest$1(ScalametaParser.scala:4244)
+	at scala.meta.internal.parsers.ScalametaParser.atPosOpt(ScalametaParser.scala:319)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosOpt(ScalametaParser.scala:366)
+	at scala.meta.internal.parsers.ScalametaParser.initRest(ScalametaParser.scala:4206)
+	at scala.meta.internal.parsers.ScalametaParser.initInsideTemplate(ScalametaParser.scala:4188)
+	at scala.meta.internal.parsers.ScalametaParser.init(ScalametaParser.scala:4328)
+	at scala.meta.internal.parsers.ScalametaParser.templateParents(ScalametaParser.scala:4339)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$template$1(ScalametaParser.scala:4386)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:316)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:365)
+	at scala.meta.internal.parsers.ScalametaParser.template(ScalametaParser.scala:4374)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateOpt$1(ScalametaParser.scala:4412)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:316)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:365)
+	at scala.meta.internal.parsers.ScalametaParser.templateOpt(ScalametaParser.scala:4404)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$classDef$1(ScalametaParser.scala:4036)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:368)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:373)
+	at scala.meta.internal.parsers.ScalametaParser.classDef(ScalametaParser.scala:4012)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3971)
+	at scala.meta.internal.parsers.ScalametaParser.topLevelTmplDef(ScalametaParser.scala:3956)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$2.applyOrElse(ScalametaParser.scala:4558)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$2.applyOrElse(ScalametaParser.scala:4546)
+	at scala.PartialFunction.$anonfun$runWith$1(PartialFunction.scala:231)
+	at scala.PartialFunction.$anonfun$runWith$1$adapted(PartialFunction.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4537)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$13(ScalametaParser.scala:4771)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4771)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:316)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:365)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4727)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4720)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:316)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:365)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4720)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4725)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:135)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:132)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:59)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:54)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:132)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.parsing.Trees.$anonfun$parse$2(Trees.scala:151)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.parsing.Trees.parse(Trees.scala:142)
+	at scala.meta.internal.parsing.Trees.didChange(Trees.scala:101)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$parseTreesAndPublishDiags$2(MetalsLspService.scala:874)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2024.06.14 11:58:37 ERROR scalafmt: /home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/02_OOP_Scala.scala
+org.scalameta.invariants.InvariantFailedException: invariant failed:
+when verifying scala.meta.internal.trees.`package`.XtensionTreesType(tpe).isConstructable
+found that scala.meta.internal.trees.`package`.XtensionTreesType(tpe).isConstructable is false
+where tpe = (MyInterface, MyOtherInterface)
+	at org.scalameta.invariants.InvariantFailedException$.raise(Exceptions.scala:19)
+	at scala.meta.Init$.apply(Trees.scala:860)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$initRest$1(ScalametaParser.scala:4166)
+	at scala.meta.internal.parsers.ScalametaParser.atPosOpt(ScalametaParser.scala:322)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosOpt(ScalametaParser.scala:366)
+	at scala.meta.internal.parsers.ScalametaParser.initRest(ScalametaParser.scala:4127)
+	at scala.meta.internal.parsers.ScalametaParser.initInsideTemplate(ScalametaParser.scala:4109)
+	at scala.meta.internal.parsers.ScalametaParser.init(ScalametaParser.scala:4251)
+	at scala.meta.internal.parsers.ScalametaParser.templateParents(ScalametaParser.scala:4262)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$template$1(ScalametaParser.scala:4309)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:319)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:365)
+	at scala.meta.internal.parsers.ScalametaParser.template(ScalametaParser.scala:4297)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateOpt$1(ScalametaParser.scala:4335)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:319)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:365)
+	at scala.meta.internal.parsers.ScalametaParser.templateOpt(ScalametaParser.scala:4327)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$classDef$1(ScalametaParser.scala:3957)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:368)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:373)
+	at scala.meta.internal.parsers.ScalametaParser.classDef(ScalametaParser.scala:3933)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3892)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3583)
+	at scala.meta.internal.parsers.ScalametaParser.nonLocalDefOrDcl(ScalametaParser.scala:3543)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$1.applyOrElse(ScalametaParser.scala:4404)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$1.applyOrElse(ScalametaParser.scala:4399)
+	at scala.PartialFunction.$anonfun$runWith$1(PartialFunction.scala:231)
+	at scala.PartialFunction.$anonfun$runWith$1$adapted(PartialFunction.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4462)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$13(ScalametaParser.scala:4696)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4696)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:319)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:365)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4652)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4645)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:319)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:365)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4645)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4650)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:135)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:132)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:59)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:54)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:132)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at org.scalafmt.config.ScalafmtParser$SourceParser$.apply(ScalafmtParser.scala:23)
+	at org.scalafmt.config.ScalafmtRunner.parse(ScalafmtRunner.scala:64)
+	at org.scalafmt.Scalafmt$.org$scalafmt$Scalafmt$$doFormatOne(Scalafmt.scala:158)
+	at org.scalafmt.Scalafmt$.doFormat(Scalafmt.scala:141)
+	at org.scalafmt.Scalafmt$.formatCodeWithStyle(Scalafmt.scala:105)
+	at org.scalafmt.Scalafmt$.$anonfun$formatCode$3(Scalafmt.scala:78)
+	at scala.util.Success.fold(Try.scala:281)
+	at org.scalafmt.Scalafmt$.formatCode(Scalafmt.scala:78)
+	at org.scalafmt.Scalafmt$.format(Scalafmt.scala:59)
+	at org.scalafmt.Scalafmt.format(Scalafmt.scala)
+	at jdk.internal.reflect.GeneratedMethodAccessor16.invoke(null)
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:568)
+	at org.scalafmt.dynamic.ScalafmtReflect.$anonfun$tryFormat$1(ScalafmtReflect.scala:121)
+	at scala.util.Try$.apply(Try.scala:217)
+	at org.scalafmt.dynamic.ScalafmtReflect.tryFormat(ScalafmtReflect.scala:117)
+	at org.scalafmt.dynamic.ScalafmtReflectConfig.tryFormat(ScalafmtReflectConfig.scala:95)
+	at org.scalafmt.dynamic.ScalafmtDynamicSession.$anonfun$tryForceFormat$1(ScalafmtDynamicSession.scala:49)
+	at scala.util.Success.flatMap(Try.scala:266)
+	at org.scalafmt.dynamic.ScalafmtDynamicSession.tryForceFormat(ScalafmtDynamicSession.scala:49)
+	at org.scalafmt.dynamic.ScalafmtDynamicSession.tryFormat(ScalafmtDynamicSession.scala:36)
+	at org.scalafmt.dynamic.ScalafmtDynamicSession.format(ScalafmtDynamicSession.scala:18)
+	at org.scalafmt.dynamic.ScalafmtDynamic.format(ScalafmtDynamic.scala:50)
+	at scala.meta.internal.metals.FormattingProvider.runFormat(FormattingProvider.scala:153)
+	at scala.meta.internal.metals.FormattingProvider.format(FormattingProvider.scala:124)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$formatting$1(MetalsLspService.scala:1534)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLspService.formatting(MetalsLspService.scala:1528)
+	at scala.meta.internal.metals.WorkspaceLspService.formatting(WorkspaceLspService.scala:440)
+	at scala.meta.metals.lsp.DelegatingScalaService.formatting(DelegatingScalaService.scala:95)
+	at jdk.internal.reflect.GeneratedMethodAccessor14.invoke(null)
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+2024.06.14 11:58:37 ERROR /home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/02_OOP_Scala.scala
+org.scalameta.invariants.InvariantFailedException: invariant failed:
+when verifying scala.meta.internal.trees.`package`.XtensionTreesType(tpe).isConstructable
+found that scala.meta.internal.trees.`package`.XtensionTreesType(tpe).isConstructable is false
+where tpe = (MyInterface, MyOtherInterface)
+
+	at org.scalameta.invariants.InvariantFailedException$.raise(InvariantFailedException.scala:27)
+	at scala.meta.Init$.apply(Trees.scala:881)
+	at scala.meta.Init$.apply(Trees.scala:880)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$initRest$1(ScalametaParser.scala:4244)
+	at scala.meta.internal.parsers.ScalametaParser.atPosOpt(ScalametaParser.scala:319)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosOpt(ScalametaParser.scala:366)
+	at scala.meta.internal.parsers.ScalametaParser.initRest(ScalametaParser.scala:4206)
+	at scala.meta.internal.parsers.ScalametaParser.initInsideTemplate(ScalametaParser.scala:4188)
+	at scala.meta.internal.parsers.ScalametaParser.init(ScalametaParser.scala:4328)
+	at scala.meta.internal.parsers.ScalametaParser.templateParents(ScalametaParser.scala:4339)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$template$1(ScalametaParser.scala:4386)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:316)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:365)
+	at scala.meta.internal.parsers.ScalametaParser.template(ScalametaParser.scala:4374)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateOpt$1(ScalametaParser.scala:4412)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:316)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:365)
+	at scala.meta.internal.parsers.ScalametaParser.templateOpt(ScalametaParser.scala:4404)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$classDef$1(ScalametaParser.scala:4036)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:368)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:373)
+	at scala.meta.internal.parsers.ScalametaParser.classDef(ScalametaParser.scala:4012)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3971)
+	at scala.meta.internal.parsers.ScalametaParser.topLevelTmplDef(ScalametaParser.scala:3956)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$2.applyOrElse(ScalametaParser.scala:4558)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$2.applyOrElse(ScalametaParser.scala:4546)
+	at scala.PartialFunction.$anonfun$runWith$1(PartialFunction.scala:231)
+	at scala.PartialFunction.$anonfun$runWith$1$adapted(PartialFunction.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4537)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$13(ScalametaParser.scala:4771)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4771)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:316)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:365)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4727)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4720)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:316)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:365)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4720)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4725)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:135)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:132)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:59)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:54)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:132)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.mtags.ScalaMtags.$anonfun$root$2(ScalaMtags.scala:28)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.mtags.ScalaMtags.<init>(ScalaMtags.scala:28)
+	at scala.meta.internal.metals.Docstrings$Deindexer.<init>(Docstrings.scala:161)
+	at scala.meta.internal.metals.Docstrings.expireSymbolDefinition(Docstrings.scala:116)
+	at scala.meta.internal.metals.Indexer.indexSourceFile(Indexer.scala:613)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3(Indexer.scala:669)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3$adapted(Indexer.scala:666)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1303)
+	at scala.meta.internal.metals.Indexer.reindexWorkspaceSources(Indexer.scala:666)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$onChange$2(MetalsLspService.scala:1416)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+2024.06.14 11:58:37 INFO  compiling root (1 scala source)[0m
+2024.06.14 11:58:37 INFO  time: compiled root in 79ms[0m
+2024.06.14 11:58:37 ERROR scalafmt: /home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/02_OOP_Scala.scala
+org.scalameta.invariants.InvariantFailedException: invariant failed:
+when verifying scala.meta.internal.trees.`package`.XtensionTreesType(tpe).isConstructable
+found that scala.meta.internal.trees.`package`.XtensionTreesType(tpe).isConstructable is false
+where tpe = (MyInterface, MyOtherInterface)
+	at org.scalameta.invariants.InvariantFailedException$.raise(Exceptions.scala:19)
+	at scala.meta.Init$.apply(Trees.scala:860)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$initRest$1(ScalametaParser.scala:4166)
+	at scala.meta.internal.parsers.ScalametaParser.atPosOpt(ScalametaParser.scala:322)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosOpt(ScalametaParser.scala:366)
+	at scala.meta.internal.parsers.ScalametaParser.initRest(ScalametaParser.scala:4127)
+	at scala.meta.internal.parsers.ScalametaParser.initInsideTemplate(ScalametaParser.scala:4109)
+	at scala.meta.internal.parsers.ScalametaParser.init(ScalametaParser.scala:4251)
+	at scala.meta.internal.parsers.ScalametaParser.templateParents(ScalametaParser.scala:4262)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$template$1(ScalametaParser.scala:4309)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:319)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:365)
+	at scala.meta.internal.parsers.ScalametaParser.template(ScalametaParser.scala:4297)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateOpt$1(ScalametaParser.scala:4335)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:319)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:365)
+	at scala.meta.internal.parsers.ScalametaParser.templateOpt(ScalametaParser.scala:4327)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$classDef$1(ScalametaParser.scala:3957)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:368)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:373)
+	at scala.meta.internal.parsers.ScalametaParser.classDef(ScalametaParser.scala:3933)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3892)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3583)
+	at scala.meta.internal.parsers.ScalametaParser.nonLocalDefOrDcl(ScalametaParser.scala:3543)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$1.applyOrElse(ScalametaParser.scala:4404)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$1.applyOrElse(ScalametaParser.scala:4399)
+	at scala.PartialFunction.$anonfun$runWith$1(PartialFunction.scala:231)
+	at scala.PartialFunction.$anonfun$runWith$1$adapted(PartialFunction.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4462)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$13(ScalametaParser.scala:4696)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4696)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:319)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:365)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4652)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4645)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:319)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:365)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4645)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4650)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:135)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:132)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:59)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:54)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:132)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at org.scalafmt.config.ScalafmtParser$SourceParser$.apply(ScalafmtParser.scala:23)
+	at org.scalafmt.config.ScalafmtRunner.parse(ScalafmtRunner.scala:64)
+	at org.scalafmt.Scalafmt$.org$scalafmt$Scalafmt$$doFormatOne(Scalafmt.scala:158)
+	at org.scalafmt.Scalafmt$.doFormat(Scalafmt.scala:141)
+	at org.scalafmt.Scalafmt$.formatCodeWithStyle(Scalafmt.scala:105)
+	at org.scalafmt.Scalafmt$.$anonfun$formatCode$3(Scalafmt.scala:78)
+	at scala.util.Success.fold(Try.scala:281)
+	at org.scalafmt.Scalafmt$.formatCode(Scalafmt.scala:78)
+	at org.scalafmt.Scalafmt$.format(Scalafmt.scala:59)
+	at org.scalafmt.Scalafmt.format(Scalafmt.scala)
+	at jdk.internal.reflect.GeneratedMethodAccessor16.invoke(null)
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:568)
+	at org.scalafmt.dynamic.ScalafmtReflect.$anonfun$tryFormat$1(ScalafmtReflect.scala:121)
+	at scala.util.Try$.apply(Try.scala:217)
+	at org.scalafmt.dynamic.ScalafmtReflect.tryFormat(ScalafmtReflect.scala:117)
+	at org.scalafmt.dynamic.ScalafmtReflectConfig.tryFormat(ScalafmtReflectConfig.scala:95)
+	at org.scalafmt.dynamic.ScalafmtDynamicSession.$anonfun$tryForceFormat$1(ScalafmtDynamicSession.scala:49)
+	at scala.util.Success.flatMap(Try.scala:266)
+	at org.scalafmt.dynamic.ScalafmtDynamicSession.tryForceFormat(ScalafmtDynamicSession.scala:49)
+	at org.scalafmt.dynamic.ScalafmtDynamicSession.tryFormat(ScalafmtDynamicSession.scala:36)
+	at org.scalafmt.dynamic.ScalafmtDynamicSession.format(ScalafmtDynamicSession.scala:18)
+	at org.scalafmt.dynamic.ScalafmtDynamic.format(ScalafmtDynamic.scala:50)
+	at scala.meta.internal.metals.FormattingProvider.runFormat(FormattingProvider.scala:153)
+	at scala.meta.internal.metals.FormattingProvider.format(FormattingProvider.scala:124)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$formatting$1(MetalsLspService.scala:1534)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLspService.formatting(MetalsLspService.scala:1528)
+	at scala.meta.internal.metals.WorkspaceLspService.formatting(WorkspaceLspService.scala:440)
+	at scala.meta.metals.lsp.DelegatingScalaService.formatting(DelegatingScalaService.scala:95)
+	at jdk.internal.reflect.GeneratedMethodAccessor14.invoke(null)
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+2024.06.14 11:58:37 ERROR /home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/02_OOP_Scala.scala
+org.scalameta.invariants.InvariantFailedException: invariant failed:
+when verifying scala.meta.internal.trees.`package`.XtensionTreesType(tpe).isConstructable
+found that scala.meta.internal.trees.`package`.XtensionTreesType(tpe).isConstructable is false
+where tpe = (MyInterface, MyOtherInterface)
+
+	at org.scalameta.invariants.InvariantFailedException$.raise(InvariantFailedException.scala:27)
+	at scala.meta.Init$.apply(Trees.scala:881)
+	at scala.meta.Init$.apply(Trees.scala:880)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$initRest$1(ScalametaParser.scala:4244)
+	at scala.meta.internal.parsers.ScalametaParser.atPosOpt(ScalametaParser.scala:319)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosOpt(ScalametaParser.scala:366)
+	at scala.meta.internal.parsers.ScalametaParser.initRest(ScalametaParser.scala:4206)
+	at scala.meta.internal.parsers.ScalametaParser.initInsideTemplate(ScalametaParser.scala:4188)
+	at scala.meta.internal.parsers.ScalametaParser.init(ScalametaParser.scala:4328)
+	at scala.meta.internal.parsers.ScalametaParser.templateParents(ScalametaParser.scala:4339)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$template$1(ScalametaParser.scala:4386)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:316)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:365)
+	at scala.meta.internal.parsers.ScalametaParser.template(ScalametaParser.scala:4374)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateOpt$1(ScalametaParser.scala:4412)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:316)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:365)
+	at scala.meta.internal.parsers.ScalametaParser.templateOpt(ScalametaParser.scala:4404)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$classDef$1(ScalametaParser.scala:4036)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:368)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:373)
+	at scala.meta.internal.parsers.ScalametaParser.classDef(ScalametaParser.scala:4012)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3971)
+	at scala.meta.internal.parsers.ScalametaParser.topLevelTmplDef(ScalametaParser.scala:3956)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$2.applyOrElse(ScalametaParser.scala:4558)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$2.applyOrElse(ScalametaParser.scala:4546)
+	at scala.PartialFunction.$anonfun$runWith$1(PartialFunction.scala:231)
+	at scala.PartialFunction.$anonfun$runWith$1$adapted(PartialFunction.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4537)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$13(ScalametaParser.scala:4771)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4771)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:316)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:365)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4727)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4720)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:316)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:365)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4720)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4725)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:135)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:132)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:59)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:54)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:132)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.mtags.ScalaMtags.$anonfun$root$2(ScalaMtags.scala:28)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.mtags.ScalaMtags.<init>(ScalaMtags.scala:28)
+	at scala.meta.internal.metals.Docstrings$Deindexer.<init>(Docstrings.scala:161)
+	at scala.meta.internal.metals.Docstrings.expireSymbolDefinition(Docstrings.scala:116)
+	at scala.meta.internal.metals.Indexer.indexSourceFile(Indexer.scala:613)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3(Indexer.scala:669)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3$adapted(Indexer.scala:666)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1303)
+	at scala.meta.internal.metals.Indexer.reindexWorkspaceSources(Indexer.scala:666)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$onChange$2(MetalsLspService.scala:1416)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+2024.06.14 11:58:37 INFO  compiling root (1 scala source)[0m
+2024.06.14 11:58:37 INFO  time: compiled root in 53ms[0m
+2024.06.14 11:58:37 ERROR scalafmt: /home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/02_OOP_Scala.scala
+org.scalameta.invariants.InvariantFailedException: invariant failed:
+when verifying scala.meta.internal.trees.`package`.XtensionTreesType(tpe).isConstructable
+found that scala.meta.internal.trees.`package`.XtensionTreesType(tpe).isConstructable is false
+where tpe = (MyInterface, MyOtherInterface)
+	at org.scalameta.invariants.InvariantFailedException$.raise(Exceptions.scala:19)
+	at scala.meta.Init$.apply(Trees.scala:860)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$initRest$1(ScalametaParser.scala:4166)
+	at scala.meta.internal.parsers.ScalametaParser.atPosOpt(ScalametaParser.scala:322)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosOpt(ScalametaParser.scala:366)
+	at scala.meta.internal.parsers.ScalametaParser.initRest(ScalametaParser.scala:4127)
+	at scala.meta.internal.parsers.ScalametaParser.initInsideTemplate(ScalametaParser.scala:4109)
+	at scala.meta.internal.parsers.ScalametaParser.init(ScalametaParser.scala:4251)
+	at scala.meta.internal.parsers.ScalametaParser.templateParents(ScalametaParser.scala:4262)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$template$1(ScalametaParser.scala:4309)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:319)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:365)
+	at scala.meta.internal.parsers.ScalametaParser.template(ScalametaParser.scala:4297)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateOpt$1(ScalametaParser.scala:4335)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:319)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:365)
+	at scala.meta.internal.parsers.ScalametaParser.templateOpt(ScalametaParser.scala:4327)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$classDef$1(ScalametaParser.scala:3957)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:368)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:373)
+	at scala.meta.internal.parsers.ScalametaParser.classDef(ScalametaParser.scala:3933)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3892)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3583)
+	at scala.meta.internal.parsers.ScalametaParser.nonLocalDefOrDcl(ScalametaParser.scala:3543)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$1.applyOrElse(ScalametaParser.scala:4404)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$1.applyOrElse(ScalametaParser.scala:4399)
+	at scala.PartialFunction.$anonfun$runWith$1(PartialFunction.scala:231)
+	at scala.PartialFunction.$anonfun$runWith$1$adapted(PartialFunction.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4462)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$13(ScalametaParser.scala:4696)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4696)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:319)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:365)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4652)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4645)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:319)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:365)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4645)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4650)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:135)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:132)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:59)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:54)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:132)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at org.scalafmt.config.ScalafmtParser$SourceParser$.apply(ScalafmtParser.scala:23)
+	at org.scalafmt.config.ScalafmtRunner.parse(ScalafmtRunner.scala:64)
+	at org.scalafmt.Scalafmt$.org$scalafmt$Scalafmt$$doFormatOne(Scalafmt.scala:158)
+	at org.scalafmt.Scalafmt$.doFormat(Scalafmt.scala:141)
+	at org.scalafmt.Scalafmt$.formatCodeWithStyle(Scalafmt.scala:105)
+	at org.scalafmt.Scalafmt$.$anonfun$formatCode$3(Scalafmt.scala:78)
+	at scala.util.Success.fold(Try.scala:281)
+	at org.scalafmt.Scalafmt$.formatCode(Scalafmt.scala:78)
+	at org.scalafmt.Scalafmt$.format(Scalafmt.scala:59)
+	at org.scalafmt.Scalafmt.format(Scalafmt.scala)
+	at jdk.internal.reflect.GeneratedMethodAccessor16.invoke(null)
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:568)
+	at org.scalafmt.dynamic.ScalafmtReflect.$anonfun$tryFormat$1(ScalafmtReflect.scala:121)
+	at scala.util.Try$.apply(Try.scala:217)
+	at org.scalafmt.dynamic.ScalafmtReflect.tryFormat(ScalafmtReflect.scala:117)
+	at org.scalafmt.dynamic.ScalafmtReflectConfig.tryFormat(ScalafmtReflectConfig.scala:95)
+	at org.scalafmt.dynamic.ScalafmtDynamicSession.$anonfun$tryForceFormat$1(ScalafmtDynamicSession.scala:49)
+	at scala.util.Success.flatMap(Try.scala:266)
+	at org.scalafmt.dynamic.ScalafmtDynamicSession.tryForceFormat(ScalafmtDynamicSession.scala:49)
+	at org.scalafmt.dynamic.ScalafmtDynamicSession.tryFormat(ScalafmtDynamicSession.scala:36)
+	at org.scalafmt.dynamic.ScalafmtDynamicSession.format(ScalafmtDynamicSession.scala:18)
+	at org.scalafmt.dynamic.ScalafmtDynamic.format(ScalafmtDynamic.scala:50)
+	at scala.meta.internal.metals.FormattingProvider.runFormat(FormattingProvider.scala:153)
+	at scala.meta.internal.metals.FormattingProvider.format(FormattingProvider.scala:124)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$formatting$1(MetalsLspService.scala:1534)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLspService.formatting(MetalsLspService.scala:1528)
+	at scala.meta.internal.metals.WorkspaceLspService.formatting(WorkspaceLspService.scala:440)
+	at scala.meta.metals.lsp.DelegatingScalaService.formatting(DelegatingScalaService.scala:95)
+	at jdk.internal.reflect.GeneratedMethodAccessor14.invoke(null)
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+2024.06.14 11:58:38 ERROR /home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/02_OOP_Scala.scala
+org.scalameta.invariants.InvariantFailedException: invariant failed:
+when verifying scala.meta.internal.trees.`package`.XtensionTreesType(tpe).isConstructable
+found that scala.meta.internal.trees.`package`.XtensionTreesType(tpe).isConstructable is false
+where tpe = (MyInterface, MyOtherInterface)
+
+	at org.scalameta.invariants.InvariantFailedException$.raise(InvariantFailedException.scala:27)
+	at scala.meta.Init$.apply(Trees.scala:881)
+	at scala.meta.Init$.apply(Trees.scala:880)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$initRest$1(ScalametaParser.scala:4244)
+	at scala.meta.internal.parsers.ScalametaParser.atPosOpt(ScalametaParser.scala:319)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosOpt(ScalametaParser.scala:366)
+	at scala.meta.internal.parsers.ScalametaParser.initRest(ScalametaParser.scala:4206)
+	at scala.meta.internal.parsers.ScalametaParser.initInsideTemplate(ScalametaParser.scala:4188)
+	at scala.meta.internal.parsers.ScalametaParser.init(ScalametaParser.scala:4328)
+	at scala.meta.internal.parsers.ScalametaParser.templateParents(ScalametaParser.scala:4339)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$template$1(ScalametaParser.scala:4386)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:316)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:365)
+	at scala.meta.internal.parsers.ScalametaParser.template(ScalametaParser.scala:4374)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateOpt$1(ScalametaParser.scala:4412)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:316)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:365)
+	at scala.meta.internal.parsers.ScalametaParser.templateOpt(ScalametaParser.scala:4404)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$classDef$1(ScalametaParser.scala:4036)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:368)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:373)
+	at scala.meta.internal.parsers.ScalametaParser.classDef(ScalametaParser.scala:4012)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3971)
+	at scala.meta.internal.parsers.ScalametaParser.topLevelTmplDef(ScalametaParser.scala:3956)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$2.applyOrElse(ScalametaParser.scala:4558)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$2.applyOrElse(ScalametaParser.scala:4546)
+	at scala.PartialFunction.$anonfun$runWith$1(PartialFunction.scala:231)
+	at scala.PartialFunction.$anonfun$runWith$1$adapted(PartialFunction.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4537)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$13(ScalametaParser.scala:4771)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4771)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:316)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:365)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4727)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4720)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:316)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:365)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4720)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4725)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:135)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:132)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:59)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:54)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:132)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.mtags.ScalaMtags.$anonfun$root$2(ScalaMtags.scala:28)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.mtags.ScalaMtags.<init>(ScalaMtags.scala:28)
+	at scala.meta.internal.metals.Docstrings$Deindexer.<init>(Docstrings.scala:161)
+	at scala.meta.internal.metals.Docstrings.expireSymbolDefinition(Docstrings.scala:116)
+	at scala.meta.internal.metals.Indexer.indexSourceFile(Indexer.scala:613)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3(Indexer.scala:669)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3$adapted(Indexer.scala:666)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1303)
+	at scala.meta.internal.metals.Indexer.reindexWorkspaceSources(Indexer.scala:666)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$onChange$2(MetalsLspService.scala:1416)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+2024.06.14 11:58:37 INFO  compiling root (1 scala source)[0m
+2024.06.14 11:58:37 INFO  time: compiled root in 51ms[0m
+2024.06.14 11:58:37 ERROR scalafmt: /home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/02_OOP_Scala.scala
+org.scalameta.invariants.InvariantFailedException: invariant failed:
+when verifying scala.meta.internal.trees.`package`.XtensionTreesType(tpe).isConstructable
+found that scala.meta.internal.trees.`package`.XtensionTreesType(tpe).isConstructable is false
+where tpe = (MyInterface, MyOtherInterface)
+	at org.scalameta.invariants.InvariantFailedException$.raise(Exceptions.scala:19)
+	at scala.meta.Init$.apply(Trees.scala:860)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$initRest$1(ScalametaParser.scala:4166)
+	at scala.meta.internal.parsers.ScalametaParser.atPosOpt(ScalametaParser.scala:322)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosOpt(ScalametaParser.scala:366)
+	at scala.meta.internal.parsers.ScalametaParser.initRest(ScalametaParser.scala:4127)
+	at scala.meta.internal.parsers.ScalametaParser.initInsideTemplate(ScalametaParser.scala:4109)
+	at scala.meta.internal.parsers.ScalametaParser.init(ScalametaParser.scala:4251)
+	at scala.meta.internal.parsers.ScalametaParser.templateParents(ScalametaParser.scala:4262)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$template$1(ScalametaParser.scala:4309)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:319)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:365)
+	at scala.meta.internal.parsers.ScalametaParser.template(ScalametaParser.scala:4297)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateOpt$1(ScalametaParser.scala:4335)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:319)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:365)
+	at scala.meta.internal.parsers.ScalametaParser.templateOpt(ScalametaParser.scala:4327)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$classDef$1(ScalametaParser.scala:3957)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:368)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:373)
+	at scala.meta.internal.parsers.ScalametaParser.classDef(ScalametaParser.scala:3933)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3892)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3583)
+	at scala.meta.internal.parsers.ScalametaParser.nonLocalDefOrDcl(ScalametaParser.scala:3543)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$1.applyOrElse(ScalametaParser.scala:4404)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$1.applyOrElse(ScalametaParser.scala:4399)
+	at scala.PartialFunction.$anonfun$runWith$1(PartialFunction.scala:231)
+	at scala.PartialFunction.$anonfun$runWith$1$adapted(PartialFunction.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4462)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$13(ScalametaParser.scala:4696)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4696)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:319)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:365)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4652)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4645)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:319)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:365)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4645)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4650)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:135)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:132)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:59)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:54)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:132)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at org.scalafmt.config.ScalafmtParser$SourceParser$.apply(ScalafmtParser.scala:23)
+	at org.scalafmt.config.ScalafmtRunner.parse(ScalafmtRunner.scala:64)
+	at org.scalafmt.Scalafmt$.org$scalafmt$Scalafmt$$doFormatOne(Scalafmt.scala:158)
+	at org.scalafmt.Scalafmt$.doFormat(Scalafmt.scala:141)
+	at org.scalafmt.Scalafmt$.formatCodeWithStyle(Scalafmt.scala:105)
+	at org.scalafmt.Scalafmt$.$anonfun$formatCode$3(Scalafmt.scala:78)
+	at scala.util.Success.fold(Try.scala:281)
+	at org.scalafmt.Scalafmt$.formatCode(Scalafmt.scala:78)
+	at org.scalafmt.Scalafmt$.format(Scalafmt.scala:59)
+	at org.scalafmt.Scalafmt.format(Scalafmt.scala)
+	at jdk.internal.reflect.GeneratedMethodAccessor16.invoke(null)
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:568)
+	at org.scalafmt.dynamic.ScalafmtReflect.$anonfun$tryFormat$1(ScalafmtReflect.scala:121)
+	at scala.util.Try$.apply(Try.scala:217)
+	at org.scalafmt.dynamic.ScalafmtReflect.tryFormat(ScalafmtReflect.scala:117)
+	at org.scalafmt.dynamic.ScalafmtReflectConfig.tryFormat(ScalafmtReflectConfig.scala:95)
+	at org.scalafmt.dynamic.ScalafmtDynamicSession.$anonfun$tryForceFormat$1(ScalafmtDynamicSession.scala:49)
+	at scala.util.Success.flatMap(Try.scala:266)
+	at org.scalafmt.dynamic.ScalafmtDynamicSession.tryForceFormat(ScalafmtDynamicSession.scala:49)
+	at org.scalafmt.dynamic.ScalafmtDynamicSession.tryFormat(ScalafmtDynamicSession.scala:36)
+	at org.scalafmt.dynamic.ScalafmtDynamicSession.format(ScalafmtDynamicSession.scala:18)
+	at org.scalafmt.dynamic.ScalafmtDynamic.format(ScalafmtDynamic.scala:50)
+	at scala.meta.internal.metals.FormattingProvider.runFormat(FormattingProvider.scala:153)
+	at scala.meta.internal.metals.FormattingProvider.format(FormattingProvider.scala:124)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$formatting$1(MetalsLspService.scala:1534)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLspService.formatting(MetalsLspService.scala:1528)
+	at scala.meta.internal.metals.WorkspaceLspService.formatting(WorkspaceLspService.scala:440)
+	at scala.meta.metals.lsp.DelegatingScalaService.formatting(DelegatingScalaService.scala:95)
+	at jdk.internal.reflect.GeneratedMethodAccessor14.invoke(null)
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+2024.06.14 11:58:38 ERROR /home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/02_OOP_Scala.scala
+org.scalameta.invariants.InvariantFailedException: invariant failed:
+when verifying scala.meta.internal.trees.`package`.XtensionTreesType(tpe).isConstructable
+found that scala.meta.internal.trees.`package`.XtensionTreesType(tpe).isConstructable is false
+where tpe = (MyInterface, MyOtherInterface)
+
+	at org.scalameta.invariants.InvariantFailedException$.raise(InvariantFailedException.scala:27)
+	at scala.meta.Init$.apply(Trees.scala:881)
+	at scala.meta.Init$.apply(Trees.scala:880)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$initRest$1(ScalametaParser.scala:4244)
+	at scala.meta.internal.parsers.ScalametaParser.atPosOpt(ScalametaParser.scala:319)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosOpt(ScalametaParser.scala:366)
+	at scala.meta.internal.parsers.ScalametaParser.initRest(ScalametaParser.scala:4206)
+	at scala.meta.internal.parsers.ScalametaParser.initInsideTemplate(ScalametaParser.scala:4188)
+	at scala.meta.internal.parsers.ScalametaParser.init(ScalametaParser.scala:4328)
+	at scala.meta.internal.parsers.ScalametaParser.templateParents(ScalametaParser.scala:4339)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$template$1(ScalametaParser.scala:4386)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:316)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:365)
+	at scala.meta.internal.parsers.ScalametaParser.template(ScalametaParser.scala:4374)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateOpt$1(ScalametaParser.scala:4412)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:316)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:365)
+	at scala.meta.internal.parsers.ScalametaParser.templateOpt(ScalametaParser.scala:4404)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$classDef$1(ScalametaParser.scala:4036)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:368)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:373)
+	at scala.meta.internal.parsers.ScalametaParser.classDef(ScalametaParser.scala:4012)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3971)
+	at scala.meta.internal.parsers.ScalametaParser.topLevelTmplDef(ScalametaParser.scala:3956)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$2.applyOrElse(ScalametaParser.scala:4558)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$2.applyOrElse(ScalametaParser.scala:4546)
+	at scala.PartialFunction.$anonfun$runWith$1(PartialFunction.scala:231)
+	at scala.PartialFunction.$anonfun$runWith$1$adapted(PartialFunction.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4537)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$13(ScalametaParser.scala:4771)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4771)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:316)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:365)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4727)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4720)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:316)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:365)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4720)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4725)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:135)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:132)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:59)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:54)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:132)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.mtags.ScalaMtags.$anonfun$root$2(ScalaMtags.scala:28)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.mtags.ScalaMtags.<init>(ScalaMtags.scala:28)
+	at scala.meta.internal.metals.Docstrings$Deindexer.<init>(Docstrings.scala:161)
+	at scala.meta.internal.metals.Docstrings.expireSymbolDefinition(Docstrings.scala:116)
+	at scala.meta.internal.metals.Indexer.indexSourceFile(Indexer.scala:613)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3(Indexer.scala:669)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3$adapted(Indexer.scala:666)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1303)
+	at scala.meta.internal.metals.Indexer.reindexWorkspaceSources(Indexer.scala:666)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$onChange$2(MetalsLspService.scala:1416)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+2024.06.14 11:58:37 INFO  compiling root (1 scala source)[0m
+2024.06.14 11:58:37 INFO  time: compiled root in 50ms[0m
+Jun 14, 2024 11:58:58 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6531
+2024.06.14 11:59:00 INFO  compiling root (1 scala source)[0m
+2024.06.14 11:59:00 INFO  time: compiled root in 0.12s[0m
+Jun 14, 2024 12:06:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6603
+Jun 14, 2024 12:07:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6719
+Jun 14, 2024 12:11:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6866
+2024.06.14 12:11:06 INFO  compiling root (1 scala source)[0m
+2024.06.14 12:11:06 INFO  time: compiled root in 75ms[0m
+2024.06.14 12:11:39 INFO  compiling root (1 scala source)[0m
+2024.06.14 12:11:39 INFO  time: compiled root in 0.12s[0m
+2024.06.14 12:15:01 INFO  compiling root (1 scala source)[0m
+2024.06.14 12:15:01 INFO  time: compiled root in 0.11s[0m
+2024.06.14 12:15:15 WARN  Using indexes to guess the definition of saidSomething[0m
+2024.06.14 12:15:17 INFO  compiling root (1 scala source)[0m
+2024.06.14 12:15:17 INFO  time: compiled root in 41ms[0m
+2024.06.14 12:15:17 INFO  compiling root (1 scala source)[0m
+2024.06.14 12:15:17 INFO  time: compiled root in 36ms[0m
+2024.06.14 12:15:17 INFO  compiling root (1 scala source)[0m
+2024.06.14 12:15:17 INFO  time: compiled root in 29ms[0m
+2024.06.14 12:16:18 ERROR scalafmt: /home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/02_OOP_Scala.scala:59: error: [dialect scala3] end of file expected but } found
+}
+^[0m
+2024.06.14 12:16:18 INFO  compiling root (1 scala source)[0m
+2024.06.14 12:16:18 INFO  time: compiled root in 34ms[0m
+2024.06.14 12:16:18 ERROR scalafmt: /home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/02_OOP_Scala.scala:59: error: [dialect scala3] end of file expected but } found
+}
+^[0m
+2024.06.14 12:16:18 INFO  compiling root (1 scala source)[0m
+2024.06.14 12:16:18 INFO  time: compiled root in 26ms[0m
+2024.06.14 12:16:18 ERROR scalafmt: /home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/02_OOP_Scala.scala:59: error: [dialect scala3] end of file expected but } found
+}
+^[0m
+2024.06.14 12:16:18 INFO  compiling root (1 scala source)[0m
+2024.06.14 12:16:18 INFO  time: compiled root in 34ms[0m
+2024.06.14 12:16:18 ERROR scalafmt: /home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/02_OOP_Scala.scala:59: error: [dialect scala3] end of file expected but } found
+}
+^[0m
+2024.06.14 12:16:18 INFO  compiling root (1 scala source)[0m
+2024.06.14 12:16:18 INFO  time: compiled root in 35ms[0m
+2024.06.14 12:16:59 INFO  compiling root (1 scala source)[0m
+2024.06.14 12:16:59 INFO  time: compiled root in 0.13s[0m
+2024.06.14 12:17:44 INFO  compiling root (1 scala source)[0m
+2024.06.14 12:17:44 INFO  time: compiled root in 0.11s[0m
+2024.06.14 12:19:13 INFO  compiling root (1 scala source)[0m
+2024.06.14 12:19:13 INFO  time: compiled root in 0.12s[0m
+Jun 14, 2024 12:19:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7883
+2024.06.14 12:19:30 INFO  compiling root (1 scala source)[0m
+2024.06.14 12:19:30 INFO  time: compiled root in 0.11s[0m
+Jun 14, 2024 12:20:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7928
+Jun 14, 2024 12:21:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7949
+2024.06.14 12:44:01 INFO  compiling root (1 scala source)[0m
+2024.06.14 12:44:01 INFO  time: compiled root in 97ms[0m
+2024.06.14 13:54:10 WARN  Target root /home/gkosia/my-repos/dataeng-scala/learn-scala/.bloop/root/bloop-bsp-clients-classes/classes-Metals-dGDniP4RQdaOc96y-YU-vQ== does not exist[0m
+2024.06.14 13:54:11 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gkosia/my-repos/dataeng-scala/.metals/bsp.trace.json or /home/gkosia/.cache/metals/bsp.trace.json[0m
+2024.06.14 13:54:11 INFO  Connected to Build server: Bloop v1.5.17[0m
+2024.06.14 13:54:12 INFO  time: indexed workspace in 0.97s[0m
+Jun 14, 2024 1:54:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8094
+2024.06.14 13:56:35 INFO  compiling root (1 scala source)[0m
+2024.06.14 13:56:35 INFO  time: compiled root in 0.39s[0m
+2024.06.14 13:58:32 INFO  compiling root (1 scala source)[0m
+2024.06.14 13:58:32 WARN  Could not load snapshot text for /home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/02_OOP_Scala.scala[0m
+2024.06.14 13:58:32 INFO  time: compiled root in 0.39s[0m
+Jun 14, 2024 1:59:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8493
+2024.06.14 13:59:45 INFO  compiling root (1 scala source)[0m
+2024.06.14 13:59:45 INFO  time: compiled root in 0.29s[0m
+2024.06.14 14:00:34 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:00:34 INFO  time: compiled root in 0.29s[0m
+Jun 14, 2024 2:00:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8658
+Jun 14, 2024 2:01:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8785
+2024.06.14 14:01:22 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:01:22 INFO  time: compiled root in 61ms[0m
+2024.06.14 14:01:22 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:01:22 INFO  time: compiled root in 59ms[0m
+2024.06.14 14:01:23 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:01:23 INFO  time: compiled root in 62ms[0m
+2024.06.14 14:01:50 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:01:50 INFO  time: compiled root in 68ms[0m
+2024.06.14 14:01:50 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:01:50 INFO  time: compiled root in 99ms[0m
+2024.06.14 14:01:50 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:01:50 INFO  time: compiled root in 73ms[0m
+2024.06.14 14:02:02 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:02:02 INFO  time: compiled root in 0.24s[0m
+2024.06.14 14:02:13 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:02:13 INFO  time: compiled root in 0.31s[0m
+2024.06.14 14:02:26 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:02:26 INFO  time: compiled root in 0.47s[0m
+2024.06.14 14:03:08 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:03:08 INFO  time: compiled root in 0.3s[0m
+Jun 14, 2024 2:03:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9259
+2024.06.14 14:04:14 ERROR scalafmt: /home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/02_OOP_Scala.scala:84: error: [dialect scala3] identifier expected but ] found
+    def tail: MyList[]
+                     ^[0m
+2024.06.14 14:04:14 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:04:14 ERROR scalafmt: /home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/02_OOP_Scala.scala:84: error: [dialect scala3] identifier expected but ] found
+    def tail: MyList[]
+                     ^[0m
+2024.06.14 14:04:14 INFO  time: compiled root in 0.24s[0m
+2024.06.14 14:04:14 ERROR scalafmt: /home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/02_OOP_Scala.scala:84: error: [dialect scala3] identifier expected but ] found
+    def tail: MyList[]
+                     ^[0m
+2024.06.14 14:04:14 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:04:14 INFO  time: compiled root in 0.37s[0m
+2024.06.14 14:04:14 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:04:14 INFO  time: compiled root in 0.17s[0m
+2024.06.14 14:04:20 INFO  Cancelling compilation on Bloop server
+java.util.concurrent.TimeoutException: Future timed out after [10 minutes]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryAwait0(Promise.scala:248)
+	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:261)
+	at scala.concurrent.Await$.$anonfun$result$1(package.scala:201)
+	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:62)
+	at scala.concurrent.Await$.result(package.scala:124)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionScalaFuture.$anonfun$withTimeout$1(MetalsEnrichments.scala:270)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+Jun 14, 2024 2:04:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+WARNING: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: Broken pipe
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:41)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.utils.FutureWithTimeout$$anon$1.$anonfun$cancel$1(FutureWithTimeout.scala:37)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:217)
+	at scala.meta.internal.metals.utils.FutureWithTimeout$$anon$1.cancel(FutureWithTimeout.scala:37)
+	at scala.meta.internal.metals.utils.FutureWithTimeout$.$anonfun$apply$4(FutureWithTimeout.scala:54)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.io.IOException: Broken pipe
+	at java.base/sun.nio.ch.FileDispatcherImpl.write0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.write(FileDispatcherImpl.java:62)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:132)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:97)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:53)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:277)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:93)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:171)
+	at java.base/java.io.OutputStream.write(OutputStream.java:127)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:151)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 13 more
+
+2024.06.14 14:04:24 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:04:24 INFO  time: compiled root in 0.57s[0m
+2024.06.14 14:04:52 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:04:52 WARN  Could not load snapshot text for /home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/02_OOP_Scala.scala[0m
+2024.06.14 14:04:52 INFO  time: compiled root in 0.47s[0m
+Jun 14, 2024 2:08:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9672
+Jun 14, 2024 2:08:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9750
+Jun 14, 2024 2:08:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9792
+2024.06.14 14:08:57 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:08:58 INFO  time: compiled root in 1.18s[0m
+2024.06.14 14:08:58 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:09:00 INFO  time: compiled root in 1.03s[0m
+2024.06.14 14:09:06 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:09:06 INFO  time: compiled root in 0.69s[0m
+2024.06.14 14:09:14 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:09:14 INFO  time: compiled root in 0.47s[0m
+Jun 14, 2024 2:09:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9866
+2024.06.14 14:09:26 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:09:26 INFO  time: compiled root in 0.87s[0m
+2024.06.14 14:09:26 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:09:28 INFO  time: compiled root in 0.8s[0m
+2024.06.14 14:09:37 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:09:37 INFO  time: compiled root in 0.62s[0m
+2024.06.14 14:09:37 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:09:38 INFO  time: compiled root in 0.73s[0m
+2024.06.14 14:09:41 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:09:41 INFO  time: compiled root in 0.63s[0m
+2024.06.14 14:10:08 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:10:08 INFO  time: compiled root in 0.2s[0m
+2024.06.14 14:10:08 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:10:08 INFO  time: compiled root in 0.22s[0m
+2024.06.14 14:10:08 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:10:08 INFO  time: compiled root in 0.21s[0m
+2024.06.14 14:10:24 INFO  no build target found for /scala/collection/Iterable.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.14 14:16:44 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:16:45 INFO  time: compiled root in 1.03s[0m
+2024.06.14 14:16:58 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:16:58 INFO  time: compiled root in 0.79s[0m
+Jun 14, 2024 2:24:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10228
+Jun 14, 2024 2:24:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10238
+Jun 14, 2024 2:24:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10265
+2024.06.14 14:24:22 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:24:24 INFO  time: compiled root in 2.15s[0m
+2024.06.14 16:33:20 INFO  Started: Metals version 1.3.1 in folders '/home/gkosia/my-repos/dataeng-scala' for client Visual Studio Code 1.90.1.[0m
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@477e2e44]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@6731ab02]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@477e2e44]
+2024.06.14 16:33:24 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.[0m
+2024.06.14 16:33:24 INFO  Attempting to connect to the build server...[0m
+2024.06.14 16:33:25 INFO  no build target found for /home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/03_Fuctional_Programming.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.14 16:33:27 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gkosia/my-repos/dataeng-scala/.metals/bsp.trace.json or /home/gkosia/.cache/metals/bsp.trace.json[0m
+2024.06.14 16:33:27 INFO  time: Connected to build server in 2.91s[0m
+2024.06.14 16:33:27 INFO  Connected to Build server: Bloop v1.5.17[0m
+2024.06.14 16:33:29 INFO  time: indexed workspace in 1.34s[0m
+2024.06.14 16:37:51 ERROR scalafmt: /home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/03_Fuctional_Programming.scala:5: error: [dialect scala3] illegal start of simple expression
+    }
+    ^[0m
+2024.06.14 16:37:51 INFO  compiling root (1 scala source)[0m
+2024.06.14 16:37:52 INFO  time: compiled root in 1.15s[0m
+2024.06.14 16:44:47 ERROR scalafmt: /home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/03_Fuctional_Programming.scala:5: error: [dialect scala3] illegal start of simple expression
+    }
+    ^[0m
+2024.06.14 16:44:47 INFO  compiling root (1 scala source)[0m
+2024.06.14 16:44:47 INFO  time: compiled root in 0.15s[0m
+Jun 14, 2024 4:45:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 137
+2024.06.14 16:45:27 INFO  compiling root (1 scala source)[0m
+2024.06.14 16:45:27 INFO  time: compiled root in 0.95s[0m
+2024.06.14 16:45:31 INFO  compiling root (1 scala source)[0m
+2024.06.14 16:45:31 INFO  time: compiled root in 0.38s[0m
+2024.06.14 16:47:37 INFO  compiling root (1 scala source)[0m
+2024.06.14 16:47:37 WARN  Could not load snapshot text for /home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/03_Fuctional_Programming.scala[0m
+2024.06.14 16:47:37 INFO  time: compiled root in 0.32s[0m
+2024.06.14 16:47:56 INFO  compiling root (1 scala source)[0m
+2024.06.14 16:47:56 INFO  time: compiled root in 0.78s[0m
+2024.06.14 16:48:11 INFO  compiling root (1 scala source)[0m
+2024.06.14 16:48:11 INFO  time: compiled root in 0.26s[0m
+2024.06.14 16:48:22 INFO  compiling root (1 scala source)[0m
+2024.06.14 16:48:22 INFO  time: compiled root in 0.23s[0m
+Jun 14, 2024 5:01:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 591
+Jun 14, 2024 5:01:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 593
+2024.06.14 17:02:11 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:02:11 INFO  time: compiled root in 0.22s[0m
+2024.06.14 17:02:34 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:02:34 INFO  time: compiled root in 0.25s[0m
+2024.06.14 17:02:46 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:02:46 INFO  time: compiled root in 0.18s[0m
+2024.06.14 17:02:58 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:02:58 INFO  time: compiled root in 0.16s[0m
+Jun 14, 2024 5:04:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1113
+2024.06.14 17:05:34 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:05:34 INFO  time: compiled root in 0.22s[0m
+2024.06.14 17:06:00 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:06:00 INFO  time: compiled root in 0.2s[0m
+2024.06.14 17:06:03 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:06:03 INFO  time: compiled root in 0.22s[0m
+2024.06.14 17:06:13 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:06:13 INFO  time: compiled root in 0.21s[0m
+2024.06.14 17:06:13 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:06:13 INFO  time: compiled root in 0.24s[0m
+2024.06.14 17:06:24 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:06:24 INFO  time: compiled root in 0.21s[0m
+2024.06.14 17:06:58 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:06:58 INFO  time: compiled root in 0.13s[0m
+Jun 14, 2024 5:07:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1727
+2024.06.14 17:07:20 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:07:20 INFO  time: compiled root in 0.13s[0m
+2024.06.14 17:07:44 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:07:44 INFO  time: compiled root in 0.12s[0m
+Jun 14, 2024 5:08:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1896
+2024.06.14 17:08:59 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:08:59 INFO  time: compiled root in 0.16s[0m
+2024.06.14 17:09:01 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:09:01 INFO  time: compiled root in 0.15s[0m
+2024.06.14 17:09:01 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:09:01 INFO  time: compiled root in 0.15s[0m
+2024.06.14 17:09:07 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:09:07 INFO  time: compiled root in 0.15s[0m
+Jun 14, 2024 5:09:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2320
+2024.06.14 17:09:31 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:09:31 INFO  time: compiled root in 0.13s[0m
+2024.06.14 17:10:42 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.[0m
+2024.06.14 17:10:42 INFO  no build target found for /scala/Int.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.14 17:10:43 INFO  no build target found for /scala/Predef.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.14 17:10:52 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:10:52 INFO  time: compiled root in 40ms[0m
+2024.06.14 17:10:52 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:10:52 INFO  time: compiled root in 38ms[0m
+2024.06.14 17:10:52 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:10:52 INFO  time: compiled root in 42ms[0m
+2024.06.14 17:11:01 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:11:01 INFO  time: compiled root in 49ms[0m
+2024.06.14 17:11:30 ERROR scalafmt: /home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/03_Fuctional_Programming.scala:25: error: [dialect scala3] polymorphic function types must have a value parameter
+  val adderShortcut: Int => [Int, Int] => Int = (v1: Int, v2: Int) => v1 + v2
+                                       ^[0m
+2024.06.14 17:11:30 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:11:30 INFO  time: compiled root in 0.16s[0m
+2024.06.14 17:11:48 ERROR scalafmt: /home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/03_Fuctional_Programming.scala:25: error: [dialect scala3] expected =>> or =>
+  val adderShortcut: Int => [Int, Int]  = (v1: Int, v2: Int) => v1 + v2
+                                        ^[0m
+2024.06.14 17:11:48 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:11:48 INFO  time: compiled root in 47ms[0m
+2024.06.14 17:11:48 ERROR scalafmt: /home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/03_Fuctional_Programming.scala:25: error: [dialect scala3] expected =>> or =>
+  val adderShortcut: Int => [Int, Int]  = (v1: Int, v2: Int) => v1 + v2
+                                        ^[0m
+2024.06.14 17:11:48 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:11:48 INFO  time: compiled root in 39ms[0m
+2024.06.14 17:11:48 ERROR scalafmt: /home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/03_Fuctional_Programming.scala:25: error: [dialect scala3] expected =>> or =>
+  val adderShortcut: Int => [Int, Int]  = (v1: Int, v2: Int) => v1 + v2
+                                        ^[0m
+2024.06.14 17:11:48 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:11:48 INFO  time: compiled root in 42ms[0m
+2024.06.14 17:11:53 ERROR scalafmt: /home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/03_Fuctional_Programming.scala:25: error: [dialect scala3] expected =>> or =>
+  val adderShortcut: Int => [Int, Int] = (v1: Int, v2: Int) => v1 + v2
+                                       ^[0m
+2024.06.14 17:11:53 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:11:53 INFO  time: compiled root in 42ms[0m
+2024.06.14 17:11:53 ERROR scalafmt: /home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/03_Fuctional_Programming.scala:25: error: [dialect scala3] expected =>> or =>
+  val adderShortcut: Int => [Int, Int] = (v1: Int, v2: Int) => v1 + v2
+                                       ^[0m
+2024.06.14 17:11:53 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:11:53 INFO  time: compiled root in 41ms[0m
+2024.06.14 17:11:53 ERROR scalafmt: /home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/03_Fuctional_Programming.scala:25: error: [dialect scala3] expected =>> or =>
+  val adderShortcut: Int => [Int, Int] = (v1: Int, v2: Int) => v1 + v2
+                                       ^[0m
+2024.06.14 17:11:53 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:11:53 INFO  time: compiled root in 48ms[0m
+2024.06.14 17:12:04 ERROR scalafmt: /home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/03_Fuctional_Programming.scala:25: error: [dialect scala3] ; expected but , found
+  val adderShortcut: Int => Int, Int = (v1: Int, v2: Int) => v1 + v2
+                               ^[0m
+2024.06.14 17:12:04 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:12:04 INFO  time: compiled root in 42ms[0m
+2024.06.14 17:12:04 ERROR scalafmt: /home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/03_Fuctional_Programming.scala:25: error: [dialect scala3] ; expected but , found
+  val adderShortcut: Int => Int, Int = (v1: Int, v2: Int) => v1 + v2
+                               ^[0m
+2024.06.14 17:12:04 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:12:04 INFO  time: compiled root in 40ms[0m
+2024.06.14 17:12:04 ERROR scalafmt: /home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/03_Fuctional_Programming.scala:25: error: [dialect scala3] ; expected but , found
+  val adderShortcut: Int => Int, Int = (v1: Int, v2: Int) => v1 + v2
+                               ^[0m
+2024.06.14 17:12:04 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:12:04 INFO  time: compiled root in 40ms[0m
+2024.06.14 17:12:21 ERROR scalafmt: /home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/03_Fuctional_Programming.scala:25: error: [dialect scala3] ; expected but , found
+  val adderShortcut: Int => Int, Int = (v1: Int, v2: Int) => v1 + v2
+                               ^[0m
+2024.06.14 17:12:22 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:12:22 INFO  time: compiled root in 40ms[0m
+2024.06.14 17:12:21 ERROR scalafmt: /home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/03_Fuctional_Programming.scala:25: error: [dialect scala3] ; expected but , found
+  val adderShortcut: Int => Int, Int = (v1: Int, v2: Int) => v1 + v2
+                               ^[0m
+2024.06.14 17:12:22 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:12:22 INFO  time: compiled root in 42ms[0m
+2024.06.14 17:12:21 ERROR scalafmt: /home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/03_Fuctional_Programming.scala:25: error: [dialect scala3] ; expected but , found
+  val adderShortcut: Int => Int, Int = (v1: Int, v2: Int) => v1 + v2
+                               ^[0m
+2024.06.14 17:12:22 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:12:22 INFO  time: compiled root in 46ms[0m
+2024.06.14 17:12:44 INFO  no build target found for /scala/Function2.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.14 17:14:32 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:14:32 INFO  time: compiled root in 0.14s[0m
+2024.06.14 17:14:44 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:14:44 INFO  time: compiled root in 0.13s[0m
+2024.06.14 17:14:57 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:14:57 INFO  time: compiled root in 0.12s[0m
+Jun 14, 2024 5:15:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3074
+Jun 14, 2024 5:15:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3075
+2024.06.14 17:19:48 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:19:48 INFO  time: compiled root in 0.11s[0m
+2024.06.14 17:20:47 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:20:47 INFO  time: compiled root in 0.19s[0m
+2024.06.14 17:20:59 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:20:59 INFO  time: compiled root in 0.13s[0m
+2024.06.14 17:21:44 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:21:44 INFO  time: compiled root in 0.13s[0m
+2024.06.14 17:21:47 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:21:47 INFO  time: compiled root in 0.16s[0m
+2024.06.14 17:22:12 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:22:12 INFO  time: compiled root in 0.23s[0m
+Jun 14, 2024 5:22:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3623
+Jun 14, 2024 5:22:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3624
+2024.06.14 17:22:30 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:22:30 INFO  time: compiled root in 0.13s[0m
+Jun 14, 2024 5:22:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3703
+Jun 14, 2024 5:22:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3786
+2024.06.14 17:23:21 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:23:21 INFO  time: compiled root in 0.15s[0m
+2024.06.14 17:23:31 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:23:31 INFO  time: compiled root in 0.14s[0m
+2024.06.14 17:27:08 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:27:08 INFO  time: compiled root in 0.13s[0m
+Jun 14, 2024 5:27:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4182
+Jun 14, 2024 5:27:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4231
+Jun 14, 2024 5:27:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4234
+Jun 14, 2024 5:27:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4261
+2024.06.14 17:27:49 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:27:49 INFO  time: compiled root in 0.17s[0m
+2024.06.14 17:28:02 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:28:02 INFO  time: compiled root in 0.14s[0m
+2024.06.14 17:28:12 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:28:12 INFO  time: compiled root in 0.13s[0m
+2024.06.14 17:29:56 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:29:56 INFO  time: compiled root in 0.12s[0m
+Jun 14, 2024 5:30:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4495
+2024.06.14 17:30:59 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:30:59 INFO  time: compiled root in 0.13s[0m
+Jun 14, 2024 5:31:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: org.scalameta.invariants.InvariantFailedException: invariant failed:
+when verifying parentCheckOk.&&(org.scalameta.`package`.debug(this, parentPrefix, destination))
+found that parentCheckOk is false
+where TermRepeatedImpl = _ *
+where destination = fun
+where parentCheckOk = false
+where parentPrefix = Term.Apply
+where this = _ *
+
+java.util.concurrent.CompletionException: org.scalameta.invariants.InvariantFailedException: invariant failed:
+when verifying parentCheckOk.&&(org.scalameta.`package`.debug(this, parentPrefix, destination))
+found that parentCheckOk is false
+where TermRepeatedImpl = _ *
+where destination = fun
+where parentCheckOk = false
+where parentPrefix = Term.Apply
+where this = _ *
+
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.scalameta.invariants.InvariantFailedException: invariant failed:
+when verifying parentCheckOk.&&(org.scalameta.`package`.debug(this, parentPrefix, destination))
+found that parentCheckOk is false
+where TermRepeatedImpl = _ *
+where destination = fun
+where parentCheckOk = false
+where parentPrefix = Term.Apply
+where this = _ *
+
+	at org.scalameta.invariants.InvariantFailedException$.raise(InvariantFailedException.scala:27)
+	at scala.meta.Term$Repeated$TermRepeatedImpl.checkParent$7(Trees.scala:258)
+	at scala.meta.Term$Repeated$TermRepeatedImpl.privateCopy(Trees.scala:259)
+	at scala.meta.Term$Apply$.apply(Trees.scala:148)
+	at scala.meta.Term$Apply$.apply(Trees.scala:148)
+	at scala.meta.Term$Apply$.apply(Trees.scala:148)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.processPatAndNextQual(FlatMapToForComprehensionCodeAction.scala:313)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$extractChainedForYield$1(FlatMapToForComprehensionCodeAction.scala:603)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.extractChainedForYield(FlatMapToForComprehensionCodeAction.scala:601)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$codeActionWithApply$1(FlatMapToForComprehensionCodeAction.scala:187)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.codeActionWithApply(FlatMapToForComprehensionCodeAction.scala:179)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$5(FlatMapToForComprehensionCodeAction.scala:61)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$3(FlatMapToForComprehensionCodeAction.scala:53)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$2(FlatMapToForComprehensionCodeAction.scala:52)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$1(FlatMapToForComprehensionCodeAction.scala:51)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2024.06.14 17:31:57 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:31:57 INFO  time: compiled root in 0.14s[0m
+2024.06.14 17:32:05 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:32:05 INFO  time: compiled root in 0.14s[0m
+2024.06.14 17:38:59 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:38:59 INFO  time: compiled root in 0.14s[0m
+Jun 14, 2024 5:40:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5221
+2024.06.14 17:41:17 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:41:17 INFO  time: compiled root in 0.14s[0m
+2024.06.14 17:41:35 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gkosia/my-repos/dataeng-scala/.metals/dap-server.trace.json or /home/gkosia/.cache/metals/dap-server.trace.json[0m
+2024.06.14 17:41:35 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gkosia/my-repos/dataeng-scala/.metals/dap-client.trace.json or /home/gkosia/.cache/metals/dap-client.trace.json[0m
+2024.06.14 17:41:35 INFO  Starting debug proxy for [03_Fuctional_Programming][0m
+2024.06.14 17:41:36 INFO  Loaded expression compiler in 455 milliseconds[0m
+2024.06.14 17:41:36 INFO  /home/gkosia/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/scala-debug-decoder_3/4.0.4/scala-debug-decoder_3-4.0.4.jar[0m
+2024.06.14 17:41:36 INFO  /home/gkosia/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.4.0/scala3-library_3-3.4.0.jar[0m
+2024.06.14 17:41:36 INFO  /home/gkosia/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/tasty-query_3/1.3.0/tasty-query_3-1.3.0.jar[0m
+2024.06.14 17:41:36 INFO  /home/gkosia/.cache/coursier/v1/https/repo1.maven.org/maven2/org/ow2/asm/asm/9.6/asm-9.6.jar[0m
+2024.06.14 17:41:36 INFO  /home/gkosia/.cache/coursier/v1/https/repo1.maven.org/maven2/org/ow2/asm/asm-util/9.6/asm-util-9.6.jar[0m
+2024.06.14 17:41:36 INFO  /home/gkosia/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12.jar[0m
+2024.06.14 17:41:36 INFO  /home/gkosia/.cache/coursier/v1/https/repo1.maven.org/maven2/org/ow2/asm/asm-tree/9.6/asm-tree-9.6.jar[0m
+2024.06.14 17:41:36 INFO  /home/gkosia/.cache/coursier/v1/https/repo1.maven.org/maven2/org/ow2/asm/asm-analysis/9.6/asm-analysis-9.6.jar[0m
+2024.06.14 17:41:36 INFO  Loaded step filter in 45 milliseconds[0m
+Jun 14, 2024 5:41:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5502
+Jun 14, 2024 5:41:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5503
+2024.06.14 17:41:38 INFO  Loaded all sources and classes in 2 seconds[0m
+2024.06.14 17:41:38 INFO  Trying to attach to remote debuggee VM localhost:38661 .[0m
+2024.06.14 17:41:38 INFO  Attaching to debuggee VM succeeded.[0m
+2024.06.14 17:41:39 INFO  Closing debug server tcp://0.0.0.0:44821[0m
+2024.06.14 17:41:39 INFO  Canceling debug proxy for [03_Fuctional_Programming][0m
+Jun 14, 2024 5:44:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5685
+Jun 14, 2024 5:44:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5724
+2024.06.14 17:45:00 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:45:00 INFO  time: compiled root in 0.23s[0m
+2024.06.14 17:45:13 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:45:13 INFO  time: compiled root in 0.15s[0m
+2024.06.14 17:45:51 ERROR Failed to tokenize input for semantic tokens for /home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/03_Fuctional_Programming.scala
+scala.meta.tokenizers.TokenizeException: <input>:70: error: Invalid literal number, followed by identifier character
+  println(0mylst)
+           ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.checkNoLetter(LegacyScanner.scala:834)
+	at scala.meta.internal.tokenizers.LegacyScanner.setNumberInteger$1(LegacyScanner.scala:857)
+	at scala.meta.internal.tokenizers.LegacyScanner.getNumber(LegacyScanner.scala:875)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchZero$1(LegacyScanner.scala:336)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:339)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:514)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+2024.06.14 17:45:52 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:45:52 INFO  time: compiled root in 0.15s[0m
+2024.06.14 17:46:50 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:46:50 INFO  time: compiled root in 0.12s[0m
+2024.06.14 17:47:09 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:47:09 INFO  time: compiled root in 0.12s[0m
+Jun 14, 2024 5:47:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6289
+Jun 14, 2024 5:47:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6331
+Jun 14, 2024 5:47:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6377
+2024.06.14 17:48:34 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:48:34 INFO  time: compiled root in 0.23s[0m
+2024.06.14 17:49:22 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:49:22 INFO  time: compiled root in 0.15s[0m
+2024.06.14 17:49:32 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:49:32 INFO  time: compiled root in 0.12s[0m
+Jun 14, 2024 5:49:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6678
+Jun 14, 2024 5:49:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6720
+2024.06.14 17:50:00 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:50:00 INFO  time: compiled root in 0.13s[0m
+Jun 14, 2024 5:50:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6797
+2024.06.14 17:50:18 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:50:18 INFO  time: compiled root in 0.14s[0m
+Jun 14, 2024 5:50:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6867
+2024.06.14 17:51:05 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:51:05 INFO  time: compiled root in 0.14s[0m
+2024.06.14 17:51:45 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:51:45 INFO  time: compiled root in 80ms[0m
+2024.06.14 17:51:45 INFO  no build target found for /scala/collection/Set.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.14 17:51:45 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:51:45 INFO  time: compiled root in 92ms[0m
+2024.06.14 17:51:50 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:51:50 INFO  time: compiled root in 0.15s[0m
+2024.06.14 17:52:27 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:52:27 INFO  time: compiled root in 0.12s[0m
+Jun 14, 2024 5:52:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7394
+2024.06.14 17:53:08 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:53:08 INFO  time: compiled root in 0.18s[0m
+Jun 14, 2024 5:55:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7608
+2024.06.14 17:56:11 ERROR scalafmt: /home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/03_Fuctional_Programming.scala:98: error: [dialect scala3] ; expected but , found
+    ,"age": 35
+    ^[0m
+2024.06.14 17:56:11 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:56:11 ERROR scalafmt: /home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/03_Fuctional_Programming.scala:98: error: [dialect scala3] ; expected but , found
+    ,"age": 35
+    ^[0m
+2024.06.14 17:56:11 INFO  time: compiled root in 0.17s[0m
+2024.06.14 17:56:11 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:56:11 ERROR scalafmt: /home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/03_Fuctional_Programming.scala:98: error: [dialect scala3] ; expected but , found
+    ,"age": 35
+    ^[0m
+2024.06.14 17:56:11 INFO  time: compiled root in 0.15s[0m
+2024.06.14 17:56:11 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:56:11 INFO  time: compiled root in 0.15s[0m
+2024.06.14 17:58:02 ERROR scalafmt: /home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/03_Fuctional_Programming.scala:98: error: [dialect scala3] ) expected but string constant found
+     "Zac" ->  33
+     ^[0m
+2024.06.14 17:58:02 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:58:02 INFO  time: compiled root in 82ms[0m
+2024.06.14 17:58:02 ERROR scalafmt: /home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/03_Fuctional_Programming.scala:98: error: [dialect scala3] ) expected but string constant found
+     "Zac" ->  33
+     ^[0m
+2024.06.14 17:58:02 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:58:02 INFO  time: compiled root in 79ms[0m
+2024.06.14 17:58:08 ERROR scalafmt: /home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/03_Fuctional_Programming.scala:98: error: [dialect scala3] ) expected but string constant found
+      "Zac" ->  33
+      ^[0m
+2024.06.14 17:58:08 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:58:08 ERROR scalafmt: /home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/03_Fuctional_Programming.scala:98: error: [dialect scala3] ) expected but string constant found
+      "Zac" ->  33
+      ^[0m
+2024.06.14 17:58:08 INFO  time: compiled root in 62ms[0m
+2024.06.14 17:58:08 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:58:08 INFO  time: compiled root in 62ms[0m
+2024.06.14 17:58:08 ERROR scalafmt: /home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/03_Fuctional_Programming.scala:98: error: [dialect scala3] ) expected but string constant found
+      "Zac" ->  33
+      ^[0m
+2024.06.14 17:58:08 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:58:08 INFO  time: compiled root in 59ms[0m
+2024.06.14 17:58:28 INFO  compiling root (1 scala source)[0m
+2024.06.14 17:58:28 INFO  time: compiled root in 0.2s[0m
+Jun 14, 2024 5:58:56 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace

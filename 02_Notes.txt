@@ -1,0 +1,135 @@
+object extends App: its an app so is standalone executable
+
+Values: values are contans, cannot change value
+        is not mantatory to specify the type
+    val <name>: <type> = value: 
+
+
+intrerpolate strings: 
+
+    refere to other values (s"this is $value" ) to concatenate string 
+
+Expressions: 
+
+    everythis in scala are expressions that return a value
+
+    Example if-else if- else
+    Code blocks
+
+Recursion:
+
+    In scala dont use loops or iteratyions
+    Use functions and recursions
+
+Unit type:
+    Unit type measns "no meaning" === void (return nothing)
+    println, 
+
+
+
+OOP:
+
+    Declare a class
+        When create a class with constructor
+            name:String: will be required when create an instanse
+            val name: will also create a class field name
+
+        class aClass(name:String)
+        class aClass(val name:String)
+    
+    Inheritance:
+        A class can extend Only one class
+        Single Inheritance
+
+    Polymorfism:
+
+        a variable contains Animal ferers to a Dog Object
+        When call a method that exists in both levels the method of more specific object will be called (of Dog)
+
+    Abstraction:
+        Not nessesary provide implementation for some methods
+        Classes that extends the abstract class should implement the abstract methods
+    
+    Encapsulation:
+        By default all fields, methods of a class are public
+        Can use private: only usage in class
+             or protected: only from class or children
+
+    Interface: 
+        Evrything unimplemented
+        A class can implement multiple trait (Interfaces)
+    
+    Anonymous classes:
+        A class that is instansiated and assign to a value
+        We cannot create more instaces of that class
+
+    Sigleton:
+        I cannt create instaces of the class
+        I use MySingleton.method()
+        Used like static in java
+
+        I can define the method apply
+        When i calls MySingleton(some args) it will call the apply method with args
+        This gives me the ability to invoke classes like functions 
+
+        I can have a Sigleton class with the same name as a normal class
+        In this case the sigleton object called companion object
+
+    Case classes:
+        Lightweight data structures
+        sensible equals and hash code
+        quick serialization
+        companion with apply
+
+    Exceptions: same as java
+
+    Generics:
+
+        Use single letter for object placeholder
+        The goal is to reuse the generic structure
+
+
+    Other important point:
+
+        In scala we are working immutable objects:
+            An operation to an object should return a new Object
+
+            1. Works in distributed envs
+            2. Make sense of teh code
+
+        Scala is closed to OOP idea:
+
+            All values are part of an object
+
+        When extending the App:
+            The App contains a main method and the body is the code of the object
+            public static void main(String[] args)
+
+
+Fuctional programming:
+
+    The JVM knows what an object is but doesnt know what a function is
+    In functional programming we want to work with functions as we work with objets and other type values:
+        - compose functions
+                FunctionX: All functions in scala are instanses of functionX
+                val fucname: <param types> => <return type> = <funct params> => <func expression>
+        - pass functions as arguments: Higher Order functions
+        - return functions as results: Higher Order functions
+
+        Higher Order functions: functions that takes functions as arguments or return functions as results
+            Map: apply an expression on each item of the list and return a value
+                 list size n.map()  => size n
+            FlatMap: apply an expression on each item of the list and might return more than one values
+            Filter: apply a boolean axpression and return value if the expression is true
+            For Comprehension: will yield the expression for the cardesian product of the params
+
+
+    Collections:
+
+        List: 
+        Sequenses: access element at a given index
+        Vectors: same as sequences but very fast access
+        Set: no duplicates, check if exists
+        Ranges: define a range, the elemens does not exists unless said .toList, toSet, ...
+        Tuples: collection of values
+        Maps: key-value pairs
