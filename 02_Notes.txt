@@ -133,3 +133,30 @@ Fuctional programming:
         Ranges: define a range, the elemens does not exists unless said .toList, toSet, ...
         Tuples: collection of values
         Maps: key-value pairs
+
+
+Pattern matching:
+
+    Apply a match condition to an object and based on its structure take the action
+    It works like "switch case when" for case classes structures
+
+
+    If the Pattern Match does not match anything and not specified the default value it will throw MatchError
+
+
+Scala Advanced
+
+    Lazy evaluation: an expression is not evaluated until is used for first time
+                     val with lazy declaration in front
+
+
+    Pseudo-collections:
+
+            Option: avoid checking if method return Null, set method to Option object and run a match Some or None
+            Try:    avoid checking if method returned a value or Exception, set method to Try and match  Success or Failure  
+            Future: run something in the background
+                    to work pass the logic in a Future as code block
+                    import scala.concurrent.ExecutionContext.Implicits.global to avoid error (like thread.pool)
+
+    Implicits: check if there is implicit instance of that type and automatically assign the value 
+
