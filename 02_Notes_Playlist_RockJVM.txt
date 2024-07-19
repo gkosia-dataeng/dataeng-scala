@@ -160,3 +160,25 @@ Scala Advanced
 
     Implicits: check if there is implicit instance of that type and automatically assign the value 
 
+
+Contextual paramenters: 
+
+    Some functions takes phantom arguments: 
+         aList.sorted: sorted takes an Ordering[T] object as parameter
+                       by default compiler will use the scala 3 implementation of the Ordering[T]
+                       we can specify our custom phantom objects
+
+                       So the declaration of the sorted looks like:
+                            def sorted()(using ord: Ordering[B])
+
+        If we declare our custom object we have to make it contextual by using the word given
+        Then the compiler will see that we have a custom instance and will pass it to the function
+
+
+        Compiler looking for given instances in the order:
+            local scope
+            imported scope  (import <package>.given )
+            in the companions of all types involved in the call
+                ex. list.sorted
+                    companion of List
+                    companion of Int
