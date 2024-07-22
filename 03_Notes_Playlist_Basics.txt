@@ -1,0 +1,36 @@
+https://www.youtube.com/playlist?list=PLS1QulWo1RIagob5D6kMIAvu7DQC5VTh3
+
+SBT:
+    Build tool: Compile, run, test, package a project
+    Compile scala code
+    Use Apache Ivy for dependency managment
+    REPL: evaluate small code to test and debug parts of code
+
+Use the REPL:
+    To start the scala interpriter execute sbt console
+    Scala is a compiled language so the REPL will generate a class file that will be compiled
+    All intermitiate temp files of REPL will be generated to current folder
+    It will 
+
+Data types:
+
+    Scala other data types:
+        Unit:    void
+        Null:    empty
+        Nothing: nothing
+        Any:     any 
+        AnyRef:  any reference
+
+Variables:
+
+    var a : <data type> = <val> ==> with var the variable is muttable
+    val a : <data type> = <val> ==> with val the variable is immutable
+                                    error: reassignment to val
+
+    var b = {} : code block, the result of the last expression will be assign to the variable
+
+    lazy val q = 100: variable will be evaluated once will used for the first time
+
+Strings:
+
+    String interpolation: inject a value to string

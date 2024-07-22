@@ -1,3 +1,5 @@
+https://www.youtube.com/watch?v=-8V6bMjThNo&list=PLmtsMNDRU0BxryRX4wiwrTZ661xcp6VPM
+
 object extends App: its an app so is standalone executable
 
 Values: values are contans, cannot change value
