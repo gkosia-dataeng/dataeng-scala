@@ -34,3 +34,28 @@ Variables:
 Strings:
 
     String interpolation: inject a value to string
+
+Functions:
+
+    function signuture: def <name>(<param>: <type>): <return type> = {code}
+    function optional params: def <name>(<param>: <type> = <value>): <return type> = {code}
+    Incline function:   def <name>(<param>: <type>) = <expression> or {code block}
+    anonymous function: val <var name> = <name>(<param>: <type>) = <expression> or {code block}
+
+    Higher order functions: receive as param or return a function 
+
+        signuture: def <name>(<param1>: <dtype>.., f(<dtype>, <dtype>) => <dtype>): <dtype> = <code>
+        usage    : val result = <name>(<param val>, <inline func>)
+                        <inline func>: can be used _ placeholders for less code
+
+
+    Partially apply functions: The idea is that i can fill some of the input params and at a later step pass the variable  and fill the rest of the params 
+    Closures: closures are functions that uses variables outside of the scope of the function
+              if the variable is declared as var then the closure is impure
+              if the variable is declared as val then the closure is pure because for the same input return the same output
+    Curring functions: the idea is to convert functions that accept multiple params to functions that accept single params
+                       
+                       def log(date: Date, msg: String)   ===>  def log(date: Date) = (msg: String) => println(s"$date: $msg")
+
+                                                                val logger = log(now())
+                                                                logger("This is a log")  -------> it will output "2024-01-01: This is a log"
