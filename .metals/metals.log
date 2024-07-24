@@ -1086,3 +1086,426 @@ Jul 24, 2024 10:58:45 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancella
 WARNING: Unmatched cancel notification for request id 144
 Jul 24, 2024 1:33:23 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+2024.07.24 15:59:10 WARN  Target root /home/gkosia/my-repos/dataeng-scala/learn-scala/.bloop/root/bloop-bsp-clients-classes/classes-Metals-NZmSFk7zT3CPd7OhIqlqZg== does not exist[0m
+2024.07.24 15:59:11 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gkosia/my-repos/dataeng-scala/.metals/bsp.trace.json or /home/gkosia/.cache/metals/bsp.trace.json[0m
+2024.07.24 15:59:11 INFO  Connected to Build server: Bloop v1.6.0[0m
+2024.07.24 15:59:11 INFO  running doctor check[0m
+2024.07.24 15:59:11 INFO  java targets: root-test, root[0m
+2024.07.24 15:59:11 INFO  time: indexed workspace in 0.78s[0m
+2024.07.24 15:59:11 INFO  compiling root (1 scala source)[0m
+2024.07.24 15:59:14 INFO  time: compiled root in 2.96s[0m
+Jul 24, 2024 4:00:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 385
+2024.07.24 16:01:52 INFO  compiling root (2 scala sources)[0m
+2024.07.24 16:01:52 WARN  Invalid text document uri received from build server: file:///home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/Basics_09_FunctionsCurrying%20copy.scala[0m
+2024.07.24 16:01:52 INFO  time: compiled root in 0.56s[0m
+Jul 24, 2024 4:02:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 669
+Jul 24, 2024 4:02:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 670
+2024.07.24 16:02:35 INFO  compiling root (1 scala source)[0m
+2024.07.24 16:02:35 INFO  time: compiled root in 0.33s[0m
+2024.07.24 16:02:41 INFO  compiling root (1 scala source)[0m
+2024.07.24 16:02:41 INFO  time: compiled root in 0.25s[0m
+2024.07.24 16:02:42 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gkosia/my-repos/dataeng-scala/.metals/dap-server.trace.json or /home/gkosia/.cache/metals/dap-server.trace.json[0m
+2024.07.24 16:02:42 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gkosia/my-repos/dataeng-scala/.metals/dap-client.trace.json or /home/gkosia/.cache/metals/dap-client.trace.json[0m
+2024.07.24 16:02:43 INFO  Starting debug proxy for [Basics_10_Strings][0m
+2024.07.24 16:02:43 INFO  Loaded expression compiler in 611 milliseconds[0m
+2024.07.24 16:02:43 INFO  Loaded step filter in 42 milliseconds[0m
+2024.07.24 16:02:46 INFO  Loaded all sources and classes in 2 seconds[0m
+2024.07.24 16:02:46 INFO  Initialized Scala 3 decoder in 824 milliseconds[0m
+2024.07.24 16:02:46 INFO  Trying to attach to remote debuggee VM localhost:52303 .[0m
+2024.07.24 16:02:46 INFO  Attaching to debuggee VM succeeded.[0m
+2024.07.24 16:02:48 INFO  Canceling debug proxy for [Basics_10_Strings][0m
+2024.07.24 16:02:48 INFO  Closing debug server tcp://0.0.0.0:38207[0m
+2024.07.24 16:03:24 INFO  compiling root (1 scala source)[0m
+2024.07.24 16:03:24 INFO  time: compiled root in 0.55s[0m
+2024.07.24 16:03:25 INFO  Deduplicating compilation of root from bsp client 'Metals 1.3.3' (since 4m 14.305s)[0m
+2024.07.24 16:03:25 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gkosia/my-repos/dataeng-scala/.metals/dap-server.trace.json or /home/gkosia/.cache/metals/dap-server.trace.json[0m
+2024.07.24 16:03:25 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gkosia/my-repos/dataeng-scala/.metals/dap-client.trace.json or /home/gkosia/.cache/metals/dap-client.trace.json[0m
+2024.07.24 16:03:25 INFO  Starting debug proxy for [Basics_10_Strings][0m
+2024.07.24 16:03:25 INFO  Loaded expression compiler in 0 milliseconds[0m
+2024.07.24 16:03:25 INFO  Loaded step filter in 0 milliseconds[0m
+2024.07.24 16:03:25 INFO  Loaded all sources and classes in 474 milliseconds[0m
+2024.07.24 16:03:26 INFO  Initialized Scala 3 decoder in 404 milliseconds[0m
+2024.07.24 16:03:26 INFO  Trying to attach to remote debuggee VM localhost:41805 .[0m
+2024.07.24 16:03:26 INFO  Attaching to debuggee VM succeeded.[0m
+2024.07.24 16:03:27 INFO  Canceling debug proxy for [Basics_10_Strings][0m
+2024.07.24 16:03:26 INFO  Closing debug server tcp://0.0.0.0:42513[0m
+2024.07.24 16:04:01 INFO  compiling root (1 scala source)[0m
+2024.07.24 16:04:01 INFO  time: compiled root in 0.26s[0m
+2024.07.24 16:04:02 INFO  Deduplicating compilation of root from bsp client 'Metals 1.3.3' (since 4m 51.727s)[0m
+2024.07.24 16:04:02 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gkosia/my-repos/dataeng-scala/.metals/dap-server.trace.json or /home/gkosia/.cache/metals/dap-server.trace.json[0m
+2024.07.24 16:04:02 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gkosia/my-repos/dataeng-scala/.metals/dap-client.trace.json or /home/gkosia/.cache/metals/dap-client.trace.json[0m
+2024.07.24 16:04:02 INFO  Starting debug proxy for [Basics_10_Strings][0m
+2024.07.24 16:04:02 INFO  Loaded expression compiler in 0 milliseconds[0m
+2024.07.24 16:04:02 INFO  Loaded step filter in 0 milliseconds[0m
+2024.07.24 16:04:02 INFO  Loaded all sources and classes in 401 milliseconds[0m
+2024.07.24 16:04:02 INFO  Initialized Scala 3 decoder in 239 milliseconds[0m
+2024.07.24 16:04:02 INFO  Trying to attach to remote debuggee VM localhost:51719 .[0m
+2024.07.24 16:04:02 INFO  Attaching to debuggee VM succeeded.[0m
+2024.07.24 16:04:04 INFO  Canceling debug proxy for [Basics_10_Strings][0m
+2024.07.24 16:04:04 INFO  Closing debug server tcp://0.0.0.0:43081[0m
+2024.07.24 16:04:27 INFO  compiling root (1 scala source)[0m
+2024.07.24 16:04:27 INFO  time: compiled root in 0.24s[0m
+2024.07.24 16:05:18 INFO  compiling root (1 scala source)[0m
+2024.07.24 16:05:18 INFO  time: compiled root in 0.24s[0m
+2024.07.24 16:05:22 INFO  Deduplicating compilation of root from bsp client 'Metals 1.3.3' (since 6m 11.429s)[0m
+2024.07.24 16:05:22 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gkosia/my-repos/dataeng-scala/.metals/dap-server.trace.json or /home/gkosia/.cache/metals/dap-server.trace.json[0m
+2024.07.24 16:05:22 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gkosia/my-repos/dataeng-scala/.metals/dap-client.trace.json or /home/gkosia/.cache/metals/dap-client.trace.json[0m
+2024.07.24 16:05:22 INFO  Starting debug proxy for [Basics_10_Strings][0m
+2024.07.24 16:05:22 INFO  Loaded expression compiler in 0 milliseconds[0m
+2024.07.24 16:05:22 INFO  Loaded step filter in 0 milliseconds[0m
+2024.07.24 16:05:22 INFO  Loaded all sources and classes in 417 milliseconds[0m
+2024.07.24 16:05:22 INFO  Initialized Scala 3 decoder in 254 milliseconds[0m
+2024.07.24 16:05:22 INFO  Trying to attach to remote debuggee VM localhost:54203 .[0m
+2024.07.24 16:05:22 INFO  Attaching to debuggee VM succeeded.[0m
+2024.07.24 16:05:24 INFO  Canceling debug proxy for [Basics_10_Strings][0m
+2024.07.24 16:05:24 INFO  Closing debug server tcp://0.0.0.0:41267[0m
+2024.07.24 16:05:53 INFO  compiling root (1 scala source)[0m
+2024.07.24 16:05:53 INFO  time: compiled root in 0.21s[0m
+2024.07.24 16:05:53 INFO  compiling root (2 scala sources)[0m
+2024.07.24 16:05:53 INFO  time: compiled root in 0.16s[0m
+2024.07.24 16:06:09 INFO  compiling root (2 scala sources)[0m
+2024.07.24 16:06:09 INFO  time: compiled root in 99ms[0m
+2024.07.24 16:06:09 INFO  compiling root (2 scala sources)[0m
+2024.07.24 16:06:09 INFO  time: compiled root in 0.13s[0m
+Jul 24, 2024 4:27:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1097
+2024.07.24 16:27:41 INFO  compiling root (2 scala sources)[0m
+2024.07.24 16:27:41 INFO  time: compiled root in 0.25s[0m
+2024.07.24 16:27:50 INFO  compiling root (1 scala source)[0m
+2024.07.24 16:27:50 INFO  time: compiled root in 0.13s[0m
+Jul 24, 2024 4:32:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1386
+Jul 24, 2024 4:33:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1514
+2024.07.24 16:33:36 INFO  compiling root (1 scala source)[0m
+2024.07.24 16:33:36 INFO  time: compiled root in 0.16s[0m
+Jul 24, 2024 4:33:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1584
+Jul 24, 2024 4:33:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1608
+Jul 24, 2024 4:34:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1737
+2024.07.24 16:34:33 INFO  compiling root (1 scala source)[0m
+2024.07.24 16:34:33 INFO  time: compiled root in 0.1s[0m
+2024.07.24 16:34:49 INFO  compiling root (1 scala source)[0m
+2024.07.24 16:34:49 INFO  time: compiled root in 0.15s[0m
+2024.07.24 16:35:02 INFO  compiling root (1 scala source)[0m
+2024.07.24 16:35:02 INFO  time: compiled root in 0.15s[0m
+2024.07.24 16:35:05 INFO  Deduplicating compilation of root from bsp client 'Metals 1.3.3' (since 35m 54.326s)[0m
+2024.07.24 16:35:05 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gkosia/my-repos/dataeng-scala/.metals/dap-server.trace.json or /home/gkosia/.cache/metals/dap-server.trace.json[0m
+2024.07.24 16:35:05 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gkosia/my-repos/dataeng-scala/.metals/dap-client.trace.json or /home/gkosia/.cache/metals/dap-client.trace.json[0m
+2024.07.24 16:35:05 INFO  Starting debug proxy for [Basics_11_DataStructures][0m
+2024.07.24 16:35:05 INFO  Loaded expression compiler in 2 milliseconds[0m
+2024.07.24 16:35:05 INFO  Loaded step filter in 0 milliseconds[0m
+2024.07.24 16:35:07 INFO  Loaded all sources and classes in 1 second[0m
+2024.07.24 16:35:07 INFO  Initialized Scala 3 decoder in 255 milliseconds[0m
+2024.07.24 16:35:07 INFO  Trying to attach to remote debuggee VM localhost:57363 .[0m
+2024.07.24 16:35:07 INFO  Attaching to debuggee VM succeeded.[0m
+2024.07.24 16:35:08 INFO  Canceling debug proxy for [Basics_11_DataStructures][0m
+2024.07.24 16:35:07 INFO  Closing debug server tcp://0.0.0.0:45961[0m
+2024.07.24 16:35:47 INFO  compiling root (1 scala source)[0m
+2024.07.24 16:35:47 INFO  time: compiled root in 0.2s[0m
+2024.07.24 16:35:48 INFO  Deduplicating compilation of root from bsp client 'Metals 1.3.3' (since 36m 37.434s)[0m
+2024.07.24 16:35:48 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gkosia/my-repos/dataeng-scala/.metals/dap-server.trace.json or /home/gkosia/.cache/metals/dap-server.trace.json[0m
+2024.07.24 16:35:48 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gkosia/my-repos/dataeng-scala/.metals/dap-client.trace.json or /home/gkosia/.cache/metals/dap-client.trace.json[0m
+2024.07.24 16:35:48 INFO  Starting debug proxy for [Basics_11_DataStructures][0m
+2024.07.24 16:35:48 INFO  Loaded expression compiler in 0 milliseconds[0m
+2024.07.24 16:35:48 INFO  Loaded step filter in 0 milliseconds[0m
+2024.07.24 16:35:48 INFO  Loaded all sources and classes in 435 milliseconds[0m
+2024.07.24 16:35:48 INFO  Initialized Scala 3 decoder in 239 milliseconds[0m
+2024.07.24 16:35:48 INFO  Trying to attach to remote debuggee VM localhost:42539 .[0m
+2024.07.24 16:35:48 INFO  Attaching to debuggee VM succeeded.[0m
+2024.07.24 16:35:50 INFO  Canceling debug proxy for [Basics_11_DataStructures][0m
+2024.07.24 16:35:50 INFO  Closing debug server tcp://0.0.0.0:36301[0m
+2024.07.24 16:36:25 INFO  compiling root (1 scala source)[0m
+2024.07.24 16:36:25 INFO  time: compiled root in 0.22s[0m
+2024.07.24 16:37:24 INFO  compiling root (1 scala source)[0m
+2024.07.24 16:37:24 INFO  time: compiled root in 0.15s[0m
+2024.07.24 16:37:27 INFO  Deduplicating compilation of root from bsp client 'Metals 1.3.3' (since 38m 16.607s)[0m
+2024.07.24 16:37:27 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gkosia/my-repos/dataeng-scala/.metals/dap-server.trace.json or /home/gkosia/.cache/metals/dap-server.trace.json[0m
+2024.07.24 16:37:27 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gkosia/my-repos/dataeng-scala/.metals/dap-client.trace.json or /home/gkosia/.cache/metals/dap-client.trace.json[0m
+2024.07.24 16:37:27 INFO  Starting debug proxy for [Basics_11_DataStructures][0m
+2024.07.24 16:37:27 INFO  Loaded expression compiler in 0 milliseconds[0m
+2024.07.24 16:37:27 INFO  Loaded step filter in 0 milliseconds[0m
+2024.07.24 16:37:27 INFO  Loaded all sources and classes in 372 milliseconds[0m
+2024.07.24 16:37:27 INFO  Initialized Scala 3 decoder in 314 milliseconds[0m
+2024.07.24 16:37:27 INFO  Trying to attach to remote debuggee VM localhost:37927 .[0m
+2024.07.24 16:37:27 INFO  Attaching to debuggee VM succeeded.[0m
+2024.07.24 16:37:29 INFO  Canceling debug proxy for [Basics_11_DataStructures][0m
+2024.07.24 16:37:29 INFO  Closing debug server tcp://0.0.0.0:33139[0m
+2024.07.24 16:39:42 INFO  compiling root (1 scala source)[0m
+2024.07.24 16:39:42 INFO  time: compiled root in 0.21s[0m
+Jul 24, 2024 4:40:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2462
+Jul 24, 2024 4:40:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2463
+2024.07.24 16:40:30 INFO  compiling root (1 scala source)[0m
+2024.07.24 16:40:30 INFO  time: compiled root in 0.13s[0m
+2024.07.24 16:40:30 INFO  compiling root (1 scala source)[0m
+2024.07.24 16:40:30 INFO  time: compiled root in 0.12s[0m
+2024.07.24 16:40:46 INFO  compiling root (1 scala source)[0m
+2024.07.24 16:40:46 INFO  time: compiled root in 0.18s[0m
+2024.07.24 16:40:48 INFO  Deduplicating compilation of root from bsp client 'Metals 1.3.3' (since 41m 37.81s)[0m
+2024.07.24 16:40:48 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gkosia/my-repos/dataeng-scala/.metals/dap-server.trace.json or /home/gkosia/.cache/metals/dap-server.trace.json[0m
+2024.07.24 16:40:48 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gkosia/my-repos/dataeng-scala/.metals/dap-client.trace.json or /home/gkosia/.cache/metals/dap-client.trace.json[0m
+2024.07.24 16:40:48 INFO  Starting debug proxy for [Basics_11_DataStructures][0m
+2024.07.24 16:40:48 INFO  Loaded expression compiler in 2 milliseconds[0m
+2024.07.24 16:40:48 INFO  Loaded step filter in 0 milliseconds[0m
+2024.07.24 16:40:48 INFO  Loaded all sources and classes in 394 milliseconds[0m
+2024.07.24 16:40:48 INFO  Initialized Scala 3 decoder in 332 milliseconds[0m
+2024.07.24 16:40:48 INFO  Trying to attach to remote debuggee VM localhost:36203 .[0m
+2024.07.24 16:40:48 INFO  Attaching to debuggee VM succeeded.[0m
+2024.07.24 16:40:50 INFO  Canceling debug proxy for [Basics_11_DataStructures][0m
+2024.07.24 16:40:50 INFO  Closing debug server tcp://0.0.0.0:38609[0m
+Jul 24, 2024 4:41:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2655
+2024.07.24 16:41:27 INFO  compiling root (1 scala source)[0m
+2024.07.24 16:41:27 INFO  time: compiled root in 0.17s[0m
+2024.07.24 16:41:29 INFO  Deduplicating compilation of root from bsp client 'Metals 1.3.3' (since 42m 18.058s)[0m
+2024.07.24 16:41:29 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gkosia/my-repos/dataeng-scala/.metals/dap-server.trace.json or /home/gkosia/.cache/metals/dap-server.trace.json[0m
+2024.07.24 16:41:29 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gkosia/my-repos/dataeng-scala/.metals/dap-client.trace.json or /home/gkosia/.cache/metals/dap-client.trace.json[0m
+2024.07.24 16:41:29 INFO  Starting debug proxy for [Basics_11_DataStructures][0m
+2024.07.24 16:41:29 INFO  Loaded expression compiler in 0 milliseconds[0m
+2024.07.24 16:41:29 INFO  Loaded step filter in 0 milliseconds[0m
+2024.07.24 16:41:29 INFO  Loaded all sources and classes in 360 milliseconds[0m
+2024.07.24 16:41:29 INFO  Initialized Scala 3 decoder in 239 milliseconds[0m
+2024.07.24 16:41:29 INFO  Trying to attach to remote debuggee VM localhost:33439 .[0m
+2024.07.24 16:41:29 INFO  Attaching to debuggee VM succeeded.[0m
+2024.07.24 16:41:30 INFO  Canceling debug proxy for [Basics_11_DataStructures][0m
+2024.07.24 16:41:30 INFO  Closing debug server tcp://0.0.0.0:35259[0m
+2024.07.24 16:42:45 INFO  compiling root (1 scala source)[0m
+2024.07.24 16:42:45 INFO  time: compiled root in 0.15s[0m
+2024.07.24 16:42:50 INFO  compiling root (1 scala source)[0m
+2024.07.24 16:42:50 INFO  time: compiled root in 0.15s[0m
+2024.07.24 16:42:56 INFO  compiling root (1 scala source)[0m
+2024.07.24 16:42:56 INFO  time: compiled root in 0.15s[0m
+2024.07.24 16:43:59 INFO  compiling root (1 scala source)[0m
+2024.07.24 16:43:59 INFO  time: compiled root in 0.15s[0m
+2024.07.24 16:44:08 INFO  compiling root (1 scala source)[0m
+2024.07.24 16:44:08 INFO  time: compiled root in 0.15s[0m
+2024.07.24 16:44:31 INFO  compiling root (1 scala source)[0m
+2024.07.24 16:44:31 INFO  time: compiled root in 71ms[0m
+2024.07.24 16:44:48 INFO  compiling root (1 scala source)[0m
+2024.07.24 16:44:48 INFO  time: compiled root in 0.14s[0m
+2024.07.24 16:44:56 INFO  compiling root (1 scala source)[0m
+2024.07.24 16:44:56 INFO  time: compiled root in 0.14s[0m
+2024.07.24 16:45:16 INFO  compiling root (1 scala source)[0m
+2024.07.24 16:45:16 INFO  time: compiled root in 0.15s[0m
+2024.07.24 16:45:28 INFO  compiling root (1 scala source)[0m
+2024.07.24 16:45:28 INFO  time: compiled root in 0.14s[0m
+2024.07.24 16:45:30 INFO  Deduplicating compilation of root from bsp client 'Metals 1.3.3' (since 46m 19.425s)[0m
+2024.07.24 16:45:30 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gkosia/my-repos/dataeng-scala/.metals/dap-server.trace.json or /home/gkosia/.cache/metals/dap-server.trace.json[0m
+2024.07.24 16:45:30 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gkosia/my-repos/dataeng-scala/.metals/dap-client.trace.json or /home/gkosia/.cache/metals/dap-client.trace.json[0m
+2024.07.24 16:45:30 INFO  Starting debug proxy for [Basics_11_DataStructures][0m
+2024.07.24 16:45:30 INFO  Loaded expression compiler in 1 millisecond[0m
+2024.07.24 16:45:30 INFO  Loaded step filter in 0 milliseconds[0m
+2024.07.24 16:45:30 INFO  Loaded all sources and classes in 483 milliseconds[0m
+2024.07.24 16:45:30 INFO  Initialized Scala 3 decoder in 229 milliseconds[0m
+2024.07.24 16:45:30 INFO  Trying to attach to remote debuggee VM localhost:32917 .[0m
+2024.07.24 16:45:30 INFO  Attaching to debuggee VM succeeded.[0m
+2024.07.24 16:45:31 INFO  Canceling debug proxy for [Basics_11_DataStructures][0m
+2024.07.24 16:45:31 INFO  Closing debug server tcp://0.0.0.0:33459[0m
+Jul 24, 2024 4:45:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3461
+2024.07.24 16:46:17 INFO  compiling root (1 scala source)[0m
+2024.07.24 16:46:17 INFO  time: compiled root in 0.16s[0m
+2024.07.24 16:46:20 INFO  Deduplicating compilation of root from bsp client 'Metals 1.3.3' (since 47m 9.369s)[0m
+2024.07.24 16:46:20 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gkosia/my-repos/dataeng-scala/.metals/dap-server.trace.json or /home/gkosia/.cache/metals/dap-server.trace.json[0m
+2024.07.24 16:46:20 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gkosia/my-repos/dataeng-scala/.metals/dap-client.trace.json or /home/gkosia/.cache/metals/dap-client.trace.json[0m
+2024.07.24 16:46:20 INFO  Starting debug proxy for [Basics_11_DataStructures][0m
+2024.07.24 16:46:20 INFO  Loaded expression compiler in 0 milliseconds[0m
+2024.07.24 16:46:20 INFO  Loaded step filter in 0 milliseconds[0m
+2024.07.24 16:46:20 INFO  Loaded all sources and classes in 360 milliseconds[0m
+2024.07.24 16:46:20 INFO  Initialized Scala 3 decoder in 321 milliseconds[0m
+2024.07.24 16:46:20 INFO  Trying to attach to remote debuggee VM localhost:49757 .[0m
+2024.07.24 16:46:20 INFO  Attaching to debuggee VM succeeded.[0m
+2024.07.24 16:46:21 INFO  Canceling debug proxy for [Basics_11_DataStructures][0m
+2024.07.24 16:46:21 INFO  Closing debug server tcp://0.0.0.0:39549[0m
+2024.07.24 16:47:51 INFO  compiling root (1 scala source)[0m
+2024.07.24 16:47:51 INFO  time: compiled root in 0.19s[0m
+2024.07.24 16:48:06 ERROR Failed to tokenize input for semantic tokens for /home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/Basics_11_DataStructures.scala
+scala.meta.tokenizers.TokenizeException: <input>:29: error: Invalid literal number, followed by identifier character
+  println(0myList)
+           ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.LegacyScanner.checkNoLetter(LegacyScanner.scala:774)
+	at scala.meta.internal.tokenizers.LegacyScanner.setNumberInteger$1(LegacyScanner.scala:796)
+	at scala.meta.internal.tokenizers.LegacyScanner.getNumber(LegacyScanner.scala:811)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchZero$1(LegacyScanner.scala:320)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:323)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:201)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:912)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:322)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:22)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:13)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:545)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+2024.07.24 16:48:08 INFO  compiling root (1 scala source)[0m
+2024.07.24 16:48:08 INFO  time: compiled root in 0.15s[0m
+2024.07.24 16:48:10 INFO  Deduplicating compilation of root from bsp client 'Metals 1.3.3' (since 48m 59.548s)[0m
+2024.07.24 16:48:10 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gkosia/my-repos/dataeng-scala/.metals/dap-server.trace.json or /home/gkosia/.cache/metals/dap-server.trace.json[0m
+2024.07.24 16:48:10 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gkosia/my-repos/dataeng-scala/.metals/dap-client.trace.json or /home/gkosia/.cache/metals/dap-client.trace.json[0m
+2024.07.24 16:48:10 INFO  Starting debug proxy for [Basics_11_DataStructures][0m
+2024.07.24 16:48:10 INFO  Loaded expression compiler in 0 milliseconds[0m
+2024.07.24 16:48:10 INFO  Loaded step filter in 0 milliseconds[0m
+2024.07.24 16:48:10 INFO  Loaded all sources and classes in 374 milliseconds[0m
+2024.07.24 16:48:10 INFO  Initialized Scala 3 decoder in 251 milliseconds[0m
+2024.07.24 16:48:10 INFO  Trying to attach to remote debuggee VM localhost:49135 .[0m
+2024.07.24 16:48:10 INFO  Attaching to debuggee VM succeeded.[0m
+2024.07.24 16:48:12 INFO  Canceling debug proxy for [Basics_11_DataStructures][0m
+2024.07.24 16:48:12 INFO  Closing debug server tcp://0.0.0.0:34569[0m
+Jul 24, 2024 4:49:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3807
+2024.07.24 16:49:48 ERROR Failed to tokenize input for semantic tokens for /home/gkosia/my-repos/dataeng-scala/learn-scala/src/main/scala/Basics_11_DataStructures.scala
+scala.meta.tokenizers.TokenizeException: <input>:32: error: Invalid literal number, followed by identifier character
+  println(0:: 1:  2myList)
+                   ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.LegacyScanner.checkNoLetter(LegacyScanner.scala:774)
+	at scala.meta.internal.tokenizers.LegacyScanner.setNumberInteger$1(LegacyScanner.scala:796)
+	at scala.meta.internal.tokenizers.LegacyScanner.getNumber(LegacyScanner.scala:811)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:326)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:201)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:912)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:322)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:22)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:13)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:545)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+2024.07.24 16:49:52 INFO  compiling root (1 scala source)[0m
+2024.07.24 16:49:52 INFO  time: compiled root in 0.41s[0m
+2024.07.24 16:49:52 INFO  compiling root (1 scala source)[0m
+2024.07.24 16:49:52 INFO  time: compiled root in 0.33s[0m
+2024.07.24 16:50:05 INFO  compiling root (1 scala source)[0m
+2024.07.24 16:50:05 INFO  time: compiled root in 0.16s[0m
+2024.07.24 16:50:06 INFO  Deduplicating compilation of root from bsp client 'Metals 1.3.3' (since 50m 55.844s)[0m
+2024.07.24 16:50:06 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gkosia/my-repos/dataeng-scala/.metals/dap-server.trace.json or /home/gkosia/.cache/metals/dap-server.trace.json[0m
+2024.07.24 16:50:06 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gkosia/my-repos/dataeng-scala/.metals/dap-client.trace.json or /home/gkosia/.cache/metals/dap-client.trace.json[0m
+2024.07.24 16:50:07 INFO  Starting debug proxy for [Basics_11_DataStructures][0m
+2024.07.24 16:50:06 INFO  Loaded expression compiler in 0 milliseconds[0m
+2024.07.24 16:50:06 INFO  Loaded step filter in 0 milliseconds[0m
+2024.07.24 16:50:06 INFO  Loaded all sources and classes in 363 milliseconds[0m
+2024.07.24 16:50:06 INFO  Initialized Scala 3 decoder in 208 milliseconds[0m
+2024.07.24 16:50:06 INFO  Trying to attach to remote debuggee VM localhost:50631 .[0m
+2024.07.24 16:50:06 INFO  Attaching to debuggee VM succeeded.[0m
+2024.07.24 16:50:08 INFO  Canceling debug proxy for [Basics_11_DataStructures][0m
+2024.07.24 16:50:08 INFO  Closing debug server tcp://0.0.0.0:39629[0m
+Jul 24, 2024 4:50:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3943
+2024.07.24 16:50:44 INFO  compiling root (1 scala source)[0m
+2024.07.24 16:50:44 INFO  time: compiled root in 0.16s[0m
+2024.07.24 16:50:47 INFO  Deduplicating compilation of root from bsp client 'Metals 1.3.3' (since 51m 36.105s)[0m
+2024.07.24 16:50:47 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gkosia/my-repos/dataeng-scala/.metals/dap-server.trace.json or /home/gkosia/.cache/metals/dap-server.trace.json[0m
+2024.07.24 16:50:47 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gkosia/my-repos/dataeng-scala/.metals/dap-client.trace.json or /home/gkosia/.cache/metals/dap-client.trace.json[0m
+2024.07.24 16:50:47 INFO  Starting debug proxy for [Basics_11_DataStructures][0m
+2024.07.24 16:50:47 INFO  Loaded expression compiler in 0 milliseconds[0m
+2024.07.24 16:50:47 INFO  Loaded step filter in 0 milliseconds[0m
+2024.07.24 16:50:47 INFO  Loaded all sources and classes in 354 milliseconds[0m
+2024.07.24 16:50:47 INFO  Initialized Scala 3 decoder in 235 milliseconds[0m
+2024.07.24 16:50:47 INFO  Trying to attach to remote debuggee VM localhost:44565 .[0m
+2024.07.24 16:50:47 INFO  Attaching to debuggee VM succeeded.[0m
+2024.07.24 16:50:48 INFO  Canceling debug proxy for [Basics_11_DataStructures][0m
+2024.07.24 16:50:48 INFO  Closing debug server tcp://0.0.0.0:44221[0m
+Jul 24, 2024 4:50:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4123
+Jul 24, 2024 4:51:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4144
+2024.07.24 16:51:14 INFO  compiling root (1 scala source)[0m
+2024.07.24 16:51:14 INFO  time: compiled root in 0.14s[0m
+2024.07.24 16:51:49 INFO  compiling root (1 scala source)[0m
+2024.07.24 16:51:49 INFO  time: compiled root in 0.15s[0m
+2024.07.24 16:52:38 INFO  compiling root (1 scala source)[0m
+2024.07.24 16:52:38 INFO  time: compiled root in 0.14s[0m
+2024.07.24 16:52:38 INFO  Deduplicating compilation of root from bsp client 'Metals 1.3.3' (since 53m 27.828s)[0m
+2024.07.24 16:52:38 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gkosia/my-repos/dataeng-scala/.metals/dap-server.trace.json or /home/gkosia/.cache/metals/dap-server.trace.json[0m
+2024.07.24 16:52:38 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gkosia/my-repos/dataeng-scala/.metals/dap-client.trace.json or /home/gkosia/.cache/metals/dap-client.trace.json[0m
+2024.07.24 16:52:38 INFO  Starting debug proxy for [Basics_11_DataStructures][0m
+2024.07.24 16:52:38 INFO  Loaded expression compiler in 0 milliseconds[0m
+2024.07.24 16:52:38 INFO  Loaded step filter in 0 milliseconds[0m
+2024.07.24 16:52:39 INFO  Loaded all sources and classes in 380 milliseconds[0m
+2024.07.24 16:52:39 INFO  Initialized Scala 3 decoder in 330 milliseconds[0m
+2024.07.24 16:52:39 INFO  Trying to attach to remote debuggee VM localhost:56663 .[0m
+2024.07.24 16:52:39 INFO  Attaching to debuggee VM succeeded.[0m
+2024.07.24 16:52:40 INFO  Canceling debug proxy for [Basics_11_DataStructures][0m
+2024.07.24 16:52:39 INFO  Closing debug server tcp://0.0.0.0:37097[0m
+Jul 24, 2024 4:52:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4356
+Jul 24, 2024 4:52:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4358
+Jul 24, 2024 4:52:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4359
+2024.07.24 16:52:55 INFO  compiling root (1 scala source)[0m
+2024.07.24 16:52:55 INFO  time: compiled root in 0.17s[0m
+2024.07.24 16:52:55 INFO  Deduplicating compilation of root from bsp client 'Metals 1.3.3' (since 53m 45.397s)[0m
+2024.07.24 16:52:56 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gkosia/my-repos/dataeng-scala/.metals/dap-server.trace.json or /home/gkosia/.cache/metals/dap-server.trace.json[0m
+2024.07.24 16:52:56 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gkosia/my-repos/dataeng-scala/.metals/dap-client.trace.json or /home/gkosia/.cache/metals/dap-client.trace.json[0m
+2024.07.24 16:52:56 INFO  Starting debug proxy for [Basics_11_DataStructures][0m
+2024.07.24 16:52:55 INFO  Loaded expression compiler in 0 milliseconds[0m
+2024.07.24 16:52:55 INFO  Loaded step filter in 0 milliseconds[0m
+2024.07.24 16:52:56 INFO  Loaded all sources and classes in 322 milliseconds[0m
+2024.07.24 16:52:56 INFO  Initialized Scala 3 decoder in 237 milliseconds[0m
+2024.07.24 16:52:56 INFO  Trying to attach to remote debuggee VM localhost:36091 .[0m
+2024.07.24 16:52:56 INFO  Attaching to debuggee VM succeeded.[0m
+2024.07.24 16:52:57 INFO  Canceling debug proxy for [Basics_11_DataStructures][0m
+2024.07.24 16:52:56 INFO  Closing debug server tcp://0.0.0.0:33329[0m
+2024.07.24 16:53:05 INFO  compiling root (1 scala source)[0m
+2024.07.24 16:53:05 INFO  time: compiled root in 0.15s[0m
+2024.07.24 16:54:07 INFO  compiling root (1 scala source)[0m
+2024.07.24 16:54:07 INFO  time: compiled root in 0.15s[0m
+2024.07.24 16:54:54 INFO  compiling root (1 scala source)[0m
+2024.07.24 16:54:54 INFO  time: compiled root in 0.15s[0m
+2024.07.24 16:54:56 INFO  Deduplicating compilation of root from bsp client 'Metals 1.3.3' (since 55m 45.037s)[0m
+2024.07.24 16:54:56 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gkosia/my-repos/dataeng-scala/.metals/dap-server.trace.json or /home/gkosia/.cache/metals/dap-server.trace.json[0m
+2024.07.24 16:54:56 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/gkosia/my-repos/dataeng-scala/.metals/dap-client.trace.json or /home/gkosia/.cache/metals/dap-client.trace.json[0m
+2024.07.24 16:54:56 INFO  Starting debug proxy for [Basics_11_DataStructures][0m
+2024.07.24 16:54:56 INFO  Loaded expression compiler in 1 millisecond[0m
+2024.07.24 16:54:56 INFO  Loaded step filter in 0 milliseconds[0m
+2024.07.24 16:54:56 INFO  Loaded all sources and classes in 412 milliseconds[0m
+2024.07.24 16:54:56 INFO  Initialized Scala 3 decoder in 204 milliseconds[0m
+2024.07.24 16:54:56 INFO  Trying to attach to remote debuggee VM localhost:55283 .[0m
+2024.07.24 16:54:56 INFO  Attaching to debuggee VM succeeded.[0m
+2024.07.24 16:54:57 INFO  Canceling debug proxy for [Basics_11_DataStructures][0m
+2024.07.24 16:54:57 INFO  Closing debug server tcp://0.0.0.0:38693[0m
+2024.07.24 16:55:25 INFO  compiling root (1 scala source)[0m
+2024.07.24 16:55:25 INFO  time: compiled root in 0.1s[0m
+2024.07.24 16:55:39 INFO  compiling root (1 scala source)[0m
+2024.07.24 16:55:39 INFO  time: compiled root in 0.23s[0m
+2024.07.24 16:55:39 INFO  compiling root (1 scala source)[0m
+2024.07.24 16:55:39 INFO  time: compiled root in 0.17s[0m
+2024.07.24 16:55:46 INFO  compiling root (1 scala source)[0m
+2024.07.24 16:55:46 INFO  time: compiled root in 0.19s[0m
+2024.07.24 16:55:55 INFO  compiling root (1 scala source)[0m
+2024.07.24 16:55:55 INFO  time: compiled root in 0.15s[0m
