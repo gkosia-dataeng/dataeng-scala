@@ -43,5 +43,9 @@ object `Basics_11_DataStructures` extends App {
   var sum: Int = 0
   myList.foreach(sum+=_)
   println(sum)
+
+  for (i <- myList){
+    println(i)
+  }
 }
 
